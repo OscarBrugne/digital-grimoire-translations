@@ -70,6 +70,7 @@
     "game": {
       "title": "Spill",
       "new": "Nytt...",
+      "home": "Hjem",
       "save": "Lagre...",
       "buy_grimoire": "Kjøp en Grimoire",
       "send_to_clocktracker": "Send til Clocktracker",
@@ -79,7 +80,8 @@
       "title": "Ark",
       "character": "Karakter",
       "night_order": "Nattens Rekkefølge",
-      "rules": "Regler"
+      "rules": "Regler",
+      "script_tool": "Åpne i Script Tool"
     },
     "settings": {
       "title": "Innstillinger",
@@ -96,6 +98,7 @@
     "login": "Logg inn",
     "mobile": {
       "new_game": "Nytt spill",
+      "home": "Hjem",
       "save_game": "Lagre spill",
       "character_sheet": "Karakteroversikt",
       "night_order_sheet": "Oversikt over Nattens Rekkefølge",
@@ -105,9 +108,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Tilbakestill",
-      "message": "Er du sikker på at du vil starte et nytt spill? Nåværende spilltilstand vil gå tapt."
+    "return_home": {
+      "title": "Gå til forsiden",
+      "message": "Er du sikker på at du vil gå tilbake til forsiden? Det nåværende spillet vil gå tapt."
     },
     "save_game": {
       "title": "Lagre spill",
@@ -148,22 +151,31 @@
       "title": "Avansert søk",
       "script": "Skript",
       "role": "Rolle",
+      "conditions": "Betingelser",
+      "options": "Alternativer",
+      "results": "Resultater",
       "add_condition": "Legg til betingelse",
+      "add_first_condition": "Legg til en betingelse for å starte søket.",
+      "includes": "Inkluderer",
+      "excludes": "Ekskluderer",
+      "role_placeholder": "Velg en rolle…",
       "teensy": "Teensy",
       "full": "Full",
-      "match_logic": "Samsvarslogikk",
-      "all_conditions": "Alle betingelser (AND)",
-      "any_condition": "Enhver betingelse (OR)",
+      "match_logic": "Samsvar",
+      "all_conditions": "Alle",
+      "any_condition": "Enhver",
       "sort_by": "Sorter etter",
       "order": "Rekkefølge",
       "ascending": "Stigende",
       "descending": "Synkende",
+      "score": "Poengsum",
       "search": "Søk",
       "clear": "Tøm",
       "loading": "Laster inn…",
       "invalid_conditions": "Ugyldige betingelser.",
       "no_scripts_found": "Ingen skript funnet.",
       "found_scripts": "Fant {total} skript",
+      "showing_results": "Viser {from}–{to} av {total}",
       "name": "Navn",
       "author": "Forfatter",
       "version": "Versjon",

@@ -79,6 +79,7 @@
     "game": {
       "title": "Game",
       "new": "New...",
+      "home": "Home",
       "save": "Save...",
       "buy_grimoire": "Buy a Grimoire",
       "send_to_clocktracker": "Send to Clocktracker",
@@ -88,7 +89,8 @@
       "title": "Sheets",
       "character": "Character",
       "night_order": "Night-Order",
-      "rules": "Rules"
+      "rules": "Rules",
+      "script_tool": "Open in Script Tool"
     },
     "settings": {
       "title": "Settings",
@@ -105,6 +107,7 @@
     "login": "Login",
     "mobile": {
       "new_game": "New Game",
+      "home": "Home",
       "save_game": "Save Game",
       "character_sheet": "Character Sheet",
       "night_order_sheet": "Night-Order Sheet",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Reset",
-      "message": "Are you sure you want to start a new game? The current game state will be lost."
+    "return_home": {
+      "title": "Return Home",
+      "message": "Are you sure you want to return to the home screen? Your current game will be lost."
     },
     "save_game": {
       "title": "Save Game",
@@ -157,22 +160,31 @@
       "title": "Advanced Search",
       "script": "Script",
       "role": "Role",
+      "conditions": "Conditions",
+      "options": "Options",
+      "results": "Results",
       "add_condition": "Add Condition",
+      "add_first_condition": "Add a condition to start searching.",
+      "includes": "Includes",
+      "excludes": "Excludes",
+      "role_placeholder": "Choose a role…",
       "teensy": "Teensy",
       "full": "Full",
-      "match_logic": "Match Logic",
-      "all_conditions": "All conditions (AND)",
-      "any_condition": "Any condition (OR)",
-      "sort_by": "Sort By",
+      "match_logic": "Match",
+      "all_conditions": "All",
+      "any_condition": "Any",
+      "sort_by": "Sort by",
       "order": "Order",
       "ascending": "Ascending",
       "descending": "Descending",
+      "score": "Score",
       "search": "Search",
       "clear": "Clear",
       "loading": "Loading…",
       "invalid_conditions": "Invalid Conditions.",
       "no_scripts_found": "No scripts found.",
       "found_scripts": "Found {total} scripts",
+      "showing_results": "Showing {from}–{to} of {total}",
       "name": "Name",
       "author": "Author",
       "version": "Version",

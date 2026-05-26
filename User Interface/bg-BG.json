@@ -79,6 +79,7 @@
     "game": {
       "title": "Игра",
       "new": "Нова...",
+      "home": "Начало",
       "save": "Запази...",
       "buy_grimoire": "Купи Гримоар",
       "send_to_clocktracker": "Изпрати до Clocktracker",
@@ -88,7 +89,8 @@
       "title": "Списъци",
       "character": "Персонажи",
       "night_order": "Ред на действията през нощта",
-      "rules": "Правила"
+      "rules": "Правила",
+      "script_tool": "Отвори в Script Tool"
     },
     "settings": {
       "title": "Настройки",
@@ -105,6 +107,7 @@
     "login": "Вход",
     "mobile": {
       "new_game": "Нова игра",
+      "home": "Начало",
       "save_game": "Запази игра",
       "character_sheet": "Списък с персонажите",
       "night_order_sheet": "Списък с реда на нощните действия",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Нова игра",
-      "message": "Сигурен ли си, че искаш да започнеш нова игра? Прогресът по текущата ще бъде изгубен."
+    "return_home": {
+      "title": "Към началния екран",
+      "message": "Сигурен ли си, че искаш да се върнеш към началния екран? Текущата игра ще бъде изгубена."
     },
     "save_game": {
       "title": "Запази игра",
@@ -157,22 +160,31 @@
       "title": "Разширено търсене",
       "script": "Сценарий",
       "role": "Роля",
+      "conditions": "Условия",
+      "options": "Опции",
+      "results": "Резултати",
       "add_condition": "Добави условие",
+      "add_first_condition": "Добави условие, за да започнеш търсенето.",
+      "includes": "Включва",
+      "excludes": "Изключва",
+      "role_placeholder": "Избери роля…",
       "teensy": "Teensy",
       "full": "Пълен",
-      "match_logic": "Логика",
-      "all_conditions": "Всички условия (И)",
-      "any_condition": "Кое да е условие (ИЛИ)",
+      "match_logic": "Съвпадение",
+      "all_conditions": "Всички",
+      "any_condition": "Кое да е",
       "sort_by": "Сортирай по",
       "order": "Подредба",
       "ascending": "Възходяща",
       "descending": "Низходяща",
+      "score": "Оценка",
       "search": "Търси",
       "clear": "Изчисти",
       "loading": "Зареждане…",
       "invalid_conditions": "Невалидни условия.",
       "no_scripts_found": "Няма открити сценарии.",
       "found_scripts": "Открити са {total} сценария",
+      "showing_results": "Показани {from}–{to} от {total}",
       "name": "Наименование",
       "author": "Автор",
       "version": "Версия",

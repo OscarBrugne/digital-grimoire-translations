@@ -79,6 +79,7 @@
     "game": {
       "title": "Spiel",
       "new": "Neu...",
+      "home": "Startseite",
       "save": "Speichern...",
       "buy_grimoire": "Grimoire kaufen",
       "send_to_clocktracker": "An Clocktracker senden",
@@ -88,7 +89,8 @@
       "title": "Blätter",
       "character": "Charakter",
       "night_order": "Nachtreihenfolge",
-      "rules": "Regeln"
+      "rules": "Regeln",
+      "script_tool": "Im Script Tool öffnen"
     },
     "settings": {
       "title": "Einstellungen",
@@ -105,6 +107,7 @@
     "login": "Anmelden",
     "mobile": {
       "new_game": "Neues Spiel",
+      "home": "Startseite",
       "save_game": "Spiel speichern",
       "character_sheet": "Charakterblatt",
       "night_order_sheet": "Nachtreihenfolge-Blatt",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Zurücksetzen",
-      "message": "Möchten Sie wirklich ein neues Spiel starten? Der aktuelle Spielstand geht verloren."
+    "return_home": {
+      "title": "Zur Startseite",
+      "message": "Möchten Sie wirklich zur Startseite zurückkehren? Der aktuelle Spielstand geht verloren."
     },
     "save_game": {
       "title": "Spiel speichern",
@@ -157,22 +160,31 @@
       "title": "Erweiterte Suche",
       "script": "Skript",
       "role": "Rolle",
+      "conditions": "Bedingungen",
+      "options": "Optionen",
+      "results": "Ergebnisse",
       "add_condition": "Bedingung hinzufügen",
+      "add_first_condition": "Füge eine Bedingung hinzu, um die Suche zu starten.",
+      "includes": "Enthält",
+      "excludes": "Schließt aus",
+      "role_placeholder": "Rolle auswählen…",
       "teensy": "Teensy",
       "full": "Voll",
-      "match_logic": "Operator",
-      "all_conditions": "Alle Bedingungen (AND)",
-      "any_condition": "Beliebige Bedingung (OR)",
+      "match_logic": "Übereinstimmung",
+      "all_conditions": "Alle",
+      "any_condition": "Beliebige",
       "sort_by": "Sortieren nach",
       "order": "Reihenfolge",
       "ascending": "Aufsteigend",
       "descending": "Absteigend",
+      "score": "Bewertung",
       "search": "Suchen",
       "clear": "Löschen",
       "loading": "Laden…",
       "invalid_conditions": "Ungültige Bedingungen.",
       "no_scripts_found": "Keine Skripte gefunden.",
       "found_scripts": "{total} Skripte gefunden",
+      "showing_results": "{from}–{to} von {total} angezeigt",
       "name": "Name",
       "author": "Autor",
       "version": "Version",

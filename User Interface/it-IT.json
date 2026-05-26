@@ -79,6 +79,7 @@
     "game": {
       "title": "Partita",
       "new": "Nuova...",
+      "home": "Home",
       "save": "Salva...",
       "buy_grimoire": "Acquista un Grimorio",
       "send_to_clocktracker": "Invia a Clocktracker",
@@ -88,7 +89,8 @@
       "title": "Schede",
       "character": "Personaggi",
       "night_order": "Ordine-Notte",
-      "rules": "Regole"
+      "rules": "Regole",
+      "script_tool": "Apri nel Script Tool"
     },
     "settings": {
       "title": "Impostazioni",
@@ -105,6 +107,7 @@
     "login": "Accesso",
     "mobile": {
       "new_game": "Nuova Partita",
+      "home": "Home",
       "save_game": "Salva Partita",
       "character_sheet": "Scheda Personaggi",
       "night_order_sheet": "Scheda Ordine-Notte",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Nuova Partita",
-      "message": "Sei sicuro di voler iniziare una nuova partita? Lo stato attuale verrà perso."
+    "return_home": {
+      "title": "Torna alla Home",
+      "message": "Sei sicuro di voler tornare alla schermata iniziale? La partita attuale andrà persa."
     },
     "save_game": {
       "title": "Salva Partita",
@@ -157,22 +160,31 @@
       "title": "Ricerca Avanzata",
       "script": "Copione",
       "role": "Ruolo",
+      "conditions": "Condizioni",
+      "options": "Opzioni",
+      "results": "Risultati",
       "add_condition": "Aggiungi Condizione",
+      "add_first_condition": "Aggiungi una condizione per iniziare la ricerca.",
+      "includes": "Include",
+      "excludes": "Esclude",
+      "role_placeholder": "Scegli un ruolo…",
       "teensy": "Teensy",
       "full": "Completo",
-      "match_logic": "Logica Corrispondenza",
-      "all_conditions": "Tutte le condizioni (AND)",
-      "any_condition": "Almeno una condizione (OR)",
-      "sort_by": "Ordina Per",
+      "match_logic": "Corrispondenza",
+      "all_conditions": "Tutte",
+      "any_condition": "Qualsiasi",
+      "sort_by": "Ordina per",
       "order": "Ordine",
       "ascending": "Crescente",
       "descending": "Decrescente",
+      "score": "Punteggio",
       "search": "Cerca",
       "clear": "Cancella",
       "loading": "Caricamento…",
       "invalid_conditions": "Condizioni Non Valide.",
       "no_scripts_found": "Nessun copione trovato.",
       "found_scripts": "Trovati {total} copioni",
+      "showing_results": "Visualizzazione {from}–{to} di {total}",
       "name": "Nome",
       "author": "Autore",
       "version": "Versione",

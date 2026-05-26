@@ -79,6 +79,7 @@
     "game": {
       "title": "Игра",
       "new": "Новая...",
+      "home": "Главная",
       "save": "Сохранить...",
       "buy_grimoire": "Купить Гримуар",
       "send_to_clocktracker": "Отправить в Clocktracker",
@@ -88,7 +89,8 @@
       "title": "Листы",
       "character": "Персонажи",
       "night_order": "Порядок способностей",
-      "rules": "Правила"
+      "rules": "Правила",
+      "script_tool": "Открыть в Script Tool"
     },
     "settings": {
       "title": "Настройки",
@@ -105,6 +107,7 @@
     "login": "Войти",
     "mobile": {
       "new_game": "Новая игра",
+      "home": "Главная",
       "save_game": "Сохранить игру",
       "character_sheet": "Лист персонажа",
       "night_order_sheet": "Лист ночного порядка",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Сброс",
-      "message": "Вы уверены, что хотите начать новую игру? Текущее состояние игры будет потеряно."
+    "return_home": {
+      "title": "Вернуться на главную",
+      "message": "Вы уверены, что хотите вернуться на главный экран? Текущая игра будет потеряна."
     },
     "save_game": {
       "title": "Сохранить игру",
@@ -157,22 +160,31 @@
       "title": "Расширенный поиск",
       "script": "Сценарий",
       "role": "Роль",
+      "conditions": "Условия",
+      "options": "Параметры",
+      "results": "Результаты",
       "add_condition": "Добавить условие",
+      "add_first_condition": "Добавьте условие, чтобы начать поиск.",
+      "includes": "Включает",
+      "excludes": "Исключает",
+      "role_placeholder": "Выберите роль…",
       "teensy": "Малый",
       "full": "Полный",
-      "match_logic": "Логика совпадений",
-      "all_conditions": "Все условия (И)",
-      "any_condition": "Любое условие (ИЛИ)",
+      "match_logic": "Совпадение",
+      "all_conditions": "Все",
+      "any_condition": "Любое",
       "sort_by": "Сортировать по",
       "order": "Порядок",
       "ascending": "По возрастанию",
       "descending": "По убыванию",
+      "score": "Оценка",
       "search": "Поиск",
       "clear": "Очистить",
       "loading": "Загрузка…",
       "invalid_conditions": "Некорректные условия.",
       "no_scripts_found": "Сценариев не найдено.",
       "found_scripts": "Найдено сценариев: {total}",
+      "showing_results": "Показано {from}–{to} из {total}",
       "name": "Название",
       "author": "Автор",
       "version": "Версия",

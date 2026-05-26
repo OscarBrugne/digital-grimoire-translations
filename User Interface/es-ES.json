@@ -79,6 +79,7 @@
     "game": {
       "title": "Juego",
       "new": "Nuevo...",
+      "home": "Inicio",
       "save": "Guardar...",
       "buy_grimoire": "Comprar un Grimorio",
       "send_to_clocktracker": "Enviar a Clocktracker",
@@ -88,7 +89,8 @@
       "title": "Hojas",
       "character": "Personaje",
       "night_order": "Orden Nocturno",
-      "rules": "Reglas"
+      "rules": "Reglas",
+      "script_tool": "Abrir en Script Tool"
     },
     "settings": {
       "title": "Ajustes",
@@ -105,6 +107,7 @@
     "login": "Iniciar sesión",
     "mobile": {
       "new_game": "Nuevo Juego",
+      "home": "Inicio",
       "save_game": "Guardar Juego",
       "character_sheet": "Hoja de Personaje",
       "night_order_sheet": "Hoja de Orden Nocturno",
@@ -114,9 +117,9 @@
     }
   },
   "modals": {
-    "new_game": {
-      "title": "Reiniciar",
-      "message": "¿Estás seguro de que quieres iniciar un nuevo juego? Se perderá el estado actual del juego."
+    "return_home": {
+      "title": "Volver al Inicio",
+      "message": "¿Estás seguro de que quieres volver a la pantalla de inicio? Se perderá la partida actual."
     },
     "save_game": {
       "title": "Guardar Juego",
@@ -157,22 +160,31 @@
       "title": "Búsqueda Avanzada",
       "script": "Guión",
       "role": "Rol",
+      "conditions": "Condiciones",
+      "options": "Opciones",
+      "results": "Resultados",
       "add_condition": "Añadir Condición",
+      "add_first_condition": "Añade una condición para comenzar la búsqueda.",
+      "includes": "Incluye",
+      "excludes": "Excluye",
+      "role_placeholder": "Elige un rol…",
       "teensy": "Pequeño",
       "full": "Completo",
-      "match_logic": "Lógica de Coincidencia",
-      "all_conditions": "Todas las condiciones (Y)",
-      "any_condition": "Cualquier condición (O)",
-      "sort_by": "Ordenar Por",
+      "match_logic": "Coincidencia",
+      "all_conditions": "Todas",
+      "any_condition": "Cualquiera",
+      "sort_by": "Ordenar por",
       "order": "Orden",
       "ascending": "Ascendente",
       "descending": "Descendente",
+      "score": "Puntuación",
       "search": "Buscar",
       "clear": "Limpiar",
       "loading": "Cargando…",
       "invalid_conditions": "Condiciones Inválidas.",
       "no_scripts_found": "No se encontraron guiones.",
       "found_scripts": "Se encontraron {total} guiones",
+      "showing_results": "Mostrando {from}–{to} de {total}",
       "name": "Nombre",
       "author": "Autor",
       "version": "Versión",
