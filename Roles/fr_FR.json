@@ -1448,9 +1448,9 @@
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
-        "firstNightReminder": "",
+        "firstNightReminder": "Choisissez un joueur. Réveillez-le et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Barista, puis faites signe avec vos doigts.",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Choisissez un joueur. Réveillez-le et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Barista, puis faites signe avec vos doigts.",
         "reminders": [
             "Sobre et sain",
             "Agit deux fois",
@@ -1459,7 +1459,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, jusqu'au crépuscule, 1) un joueur devient sobre, sain et obtient de vraies infos, ou 2) sa capacité fonctionne deux fois. Il apprend lequel des 2 effets il a reçu.",
-        "flavor": null,
+        "flavor": "Une tasse de café sans crème, Monsieur ? Je regrette, mais nous n'avons plus de crème. Sans lait, alors ?",
         "special": ""
     },
     {
