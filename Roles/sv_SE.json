@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Om Farmorns barnbarn dödades av Demonen inatt så dör Farmorn också.",
         "reminders": [
-            "Barnbarn"
+            "Barnbarn",
+            "Död"
         ],
         "setup": false,
         "ability": "I början får du veta en god spelare och hens roll. Om hen dödas av Demonen dör du också.",
@@ -969,9 +970,7 @@
         "firstNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond rollbricka; en av dem stämmer.",
         "otherNight": 72,
         "otherNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond rollbricka; en av dem stämmer.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Varje natt väljer du en spelare (inte dig själv eller Resenärer); du får veta 1 god och 1 ond roll som hen kan vara.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "Filosofen skakar på huvudet för ”nej”, eller pekar på en god roll på sitt ark. Om Filosofen valde en roll så byt ut den valda rollbrickan mot Filosofens bricka. Om den valda rollen redan är i spel så sätt markören ”Full” vid den valda spelaren. Sätt markören ”Är Filosofen” vid den spelare som var Filosofen.",
         "otherNight": 6,
         "otherNightReminder": "Filosofen skakar på huvudet för ”nej”, eller pekar på en god roll på sitt ark. Om Filosofen valde en roll så byt ut den valda rollbrickan mot Filosofens bricka. Om den valda rollen redan är i spel så sätt markören ”Full” vid den valda spelaren. Sätt markören ”Är Filosofen” vid den spelare som var Filosofen.",
-        "reminders": [],
+        "reminders": [
+            "Full"
+        ],
         "setup": false,
         "ability": "En gång per spel, på natten, kan du välja en god roll; du får dess förmåga. Om rollen redan är i spel blir den spelaren full.",
         "special": [
@@ -1372,7 +1373,9 @@
         "otherNightReminder": "Välj en spelare, väck hen och ange vilken Baristakraft hen fått. Agera därefter (frisk och sann info eller aktivera förmågan två gånger).",
         "reminders": [
             "Frisk & nykter",
-            "Dubbel förmåga"
+            "Dubbel förmåga",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Varje natt, till skymningen, blir en spelare frisk och får sann info, eller kan använda sin förmåga två gånger. Hen får veta vilket.",
@@ -1577,8 +1580,8 @@
         "otherNight": 32,
         "otherNightReminder": "Lykantropen pekar på en levande spelare. Om hen är god dör hen, och Demonen får inte döda någon inatt.",
         "reminders": [
-            "Död",
-            "Luktar ond"
+            "Luktar ond",
+            "Död"
         ],
         "setup": false,
         "ability": "Varje natt* väljer du en levande spelare; om hen är god dör hen och Demonen får inte döda inatt. En god spelare registreras som ond.",
@@ -1801,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobaten väljer en spelare. :påminnelse:",
         "reminders": [
-            "Död"
+            "Död",
+            "Vald"
         ],
         "setup": false,
         "ability": "Varje natt*, välj en spelare: om de är eller blir fulla eller förgiftade ikväll, dör du.",
@@ -1894,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Förgiftad"
+            "Förgiftad",
+            "Visad"
         ],
         "setup": false,
         "ability": "Din första natt ser du Spelboken och väljer en spelare; hen blir förgiftad. 1 god spelare vet att Änkan är i spel.",
@@ -2062,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Valt att dö",
-            "Valt att leva"
+            "3"
         ],
         "setup": false,
         "ability": "Varje natt* kan du välja 3 spelare (alla spelare vet vilka du valt); de väljer tyst att leva eller dö. Om alla lever dör alla tre.",
@@ -2120,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dag 1",
+            "Dag 2",
+            "Dag 3"
+        ],
         "setup": true,
         "ability": "På dag 3 blir Kumpaner Upprorsmakare och nominerade dör men nominerar omedelbart en levande spelare. Detta måste hända.",
         "special": null
@@ -2134,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "En gång per dag kan du döda en levande granne, om din andra levande granne går med på det.",
         "special": null
@@ -2605,7 +2610,10 @@
         "firstNightReminder": "Berätta att Hembrännaren är i spel och tala om vilka hemgjorda roller och regler du använder.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Det här skriptet har hemgjorda roller eller regler.",
         "special": null
@@ -2670,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2850,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Registreras fel?"
+            "Registreras fel?",
+            "I lag",
+            "I lag"
         ],
         "setup": false,
         "ability": "Alla vet att 2 grannspelare är i samma lag. En gång per spel registreras en av dem fel.",

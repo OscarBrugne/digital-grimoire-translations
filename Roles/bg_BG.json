@@ -3240,7 +3240,10 @@
         "id": "bootlegger",
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "name": "Контрабандист",
         "team": "loric",
@@ -3271,7 +3274,7 @@
         "ability": "Всеки номиниран избира играч. До момента на гласуване, само той може да говори и се преструва, че номинираният е добър или може да умре."
     },
     {
-        "id": "venriloquist",
+        "id": "ventriloquist",
         "reminders": [
             "Луд"
         ],
@@ -3308,12 +3311,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {

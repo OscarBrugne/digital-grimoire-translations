@@ -12,7 +12,7 @@
         "id": "dawn",
         "edition": "special",
         "name": "Dawn",
-        "firstNightReminder": "Wait for a few seconds. End the Night Phase.", 
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
         "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
         "firstNight": 73,
         "otherNight": 93
@@ -579,9 +579,9 @@
         "otherNight": 13,
         "otherNightReminder": "Verminder het aantal dagen dat de geselecteerde rol dronken is. Als de Hoveling zijn vaardigheid nog niet heeft gebruikt: de Hoveling schudt ofwel zijn hoofd (nee) of wijst naar een rol op het rolblad. Als hij dat doet: de geselecteerde rol is drie nachten en dagen dronken als die in het spel is.",
         "reminders": [
-            "Dronken 1",
-            "Dronken 2",
             "Dronken 3",
+            "Dronken 2",
+            "Dronken 1",
             "geen vaardigheid"
         ],
         "setup": false,
@@ -777,8 +777,8 @@
         "otherNight": 51,
         "otherNightReminder": "Als de Moordenaar zijn vaardigheid nog niet heeft gebruikt: de Moordenaar schudt zijn hoofd of wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Geen vaardigheid",
-            "Dood"
+            "Dood",
+            "Geen vaardigheid"
         ],
         "setup": false,
         "ability": "Je mag eenmaal in het spel 's nachts* 1 speler kiezen: hij sterft, zelfs als hij normaal niet zou kunnen sterven.",
@@ -825,9 +825,9 @@
         "otherNight": 37,
         "otherNightReminder": "De Pukka wijst naar een speler. Die speler is vergiftigd. De speler die eerder vergiftigd was, sterft.",
         "reminders": [
-            "Dood",
             "Vergiftigd",
-            "Vergiftigd"
+            "Vergiftigd",
+            "Dood"
         ],
         "setup": false,
         "ability": "Kies elke nacht 1 speler: hij is vergiftigd. De eerder vergiftigde speler sterft en wordt gezond.",
@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Als de Poe de vorige nacht niemand heeft gekozen: de Poe wijst naar drie spelers. Anders: de Poe schudt zijn hoofd (nee) of wijst naar een speler. Geselecteerde spelers sterven.",
         "reminders": [
-            "3 aanvallen",
             "Dood",
             "Dood",
-            "Dood"
+            "Dood",
+            "3 aanvallen"
         ],
         "setup": false,
         "ability": "Je mag elke nacht* 1 speler kiezen: hij sterft. Als je vorige keuze niemand was, kies dan deze nacht 3 spelers.",
@@ -1098,7 +1098,9 @@
         "firstNightReminder": "De Filosoof schudt zijn hoofd (nee) of wijst naar een goed karakter op het karakterblad. Als hij een karakter kiest: vervang de vaardigheid van de Filosoof door die van het gekozen karakter. Als die rol al in het spel is, is een van die spelers dronken.",
         "otherNight": 6,
         "otherNightReminder": "Als de Filosoof zijn vaardigheid nog niet heeft gebruikt: de Filosoof schudt zijn hoofd (nee) of wijst naar een goed karakter op het karakterblad. Als hij een karakter kiest: vervang de vaardigheid van de Filosoof door die van het gekozen karakter. Als die rol al in het spel is, is een van die spelers dronken.",
-        "reminders": [],
+        "reminders": [
+            "Dronken"
+        ],
         "setup": false,
         "ability": "Je kunt eenmaal in het spel 's nachts 1 goede rol kiezen: je krijgt haar vaardigheid. Als die rol al in het spel is, wordt een van die personen dronken.",
         "special": [
@@ -1377,7 +1379,7 @@
         "special": null
     },
     {
-        "id": "Harlot",
+        "id": "harlot",
         "name": "Maîtresse",
         "edition": "snv",
         "team": "traveller",
@@ -1417,8 +1419,8 @@
         "otherNight": 5,
         "otherNightReminder": "De Bottenraper schudt zijn hoofd (nee) of wijst naar een dode speler. Als hij naar een dode speler wijst, leg de 'Heeft vaardigheid'-herinnering bij de spelkaart van de geselecteerde speler.",
         "reminders": [
-            "Heeft vaardigheid",
-            "Geen vaardigheid"
+            "Geen vaardigheid",
+            "Heeft vaardigheid"
         ],
         "setup": false,
         "ability": "Je mag eenmaal in het spel 's nachts een dode speler kiezen: hij krijgt zijn vaardigheid terug tot het einde van de volgende dag.",
@@ -1575,8 +1577,8 @@
         "otherNight": 32,
         "otherNightReminder": "De Weerwolf wijst naar een levende speler. Is hij goed, dan sterft hij en sterft niemand anders die nacht.",
         "reminders": [
-            "Dood",
-            "Faux Paw"
+            "Faux Paw",
+            "Dood"
         ],
         "setup": false,
         "ability": "Kies elke nacht* 1 levende speler: is hij goed, dan sterft hij en doodt de demon deze nacht niet. Een goede speler voordoet als kwaad.",
@@ -1799,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "De Acrobaat kiest een speler. :reminder:",
         "reminders": [
-            "Dood"
+            "Dood",
+            "Gekozen"
         ],
         "setup": false,
         "ability": "Elke nacht*, kies een speler: als hij vannacht dronken of vergiftigd wordt, sterf jij.",
@@ -1892,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vergiftigd"
+            "Vergiftigd",
+            "Bekend"
         ],
         "setup": false,
         "ability": "Kijk in je eerste nacht in het Grimoire en kies 1 speler: hij is vergiftigd. 1 goede speler weet dat de Weduwe in het spel is.",
@@ -2060,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Kies leven",
-            "Kies dood"
+            "3"
         ],
         "setup": false,
         "ability": "Je mag elke nacht* 3 spelers kiezen (alle spelers ontdekken welke): ieder beslist voor zichzelf of hij wil leven of sterven, maar als allen leven, sterven allen.",
@@ -2115,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dag 1",
+            "Dag 2",
+            "Dag 3"
+        ],
         "setup": true,
         "ability": "Op dag 3 worden minions Oproerkraaiers en genomineerden sterven, maar nomineren onmiddellijk een levende speler. Dit moet gebeuren.",
         "special": null
@@ -2598,7 +2604,10 @@
         "firstNightReminder": "Kondig aan dat de Bootlegger in het spel is en informeer de groep over alle homebrew-karakters en/of regels die je in dit spel gebruikt.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Dit script bevat homebrew-karakters of -regels.",
         "special": null
@@ -2663,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Herbelichaamd",
-            "Herbelichaamd",
-            "Herbelichaamd",
-            "Herbelichaamd"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2843,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vals registreren?"
+            "Vals registreren?",
+            "gelijk",
+            "gelijk"
         ],
         "setup": false,
         "ability": "Het wordt bekend welke twee aangrenzende spelers dezelfde gezindheid hebben. Eenmaal in het spel wordt een van de twee onjuist herkend.",

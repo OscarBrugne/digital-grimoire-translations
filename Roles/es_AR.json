@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Si el nieto de la Abuela fue asesinado por el Demonio esta noche: la Abuela también muere.",
         "reminders": [
-            "Nieto"
+            "Nieto",
+            "Muerto"
         ],
         "setup": false,
         "ability": "Empezás conociendo a un jugador bueno y su personaje. Si el Demonio lo mata, vos también morís.",
@@ -1097,7 +1098,9 @@
         "firstNightReminder": "El Filósofo puede apuntar a un personaje bueno en la hoja de personaje. Si lo hace, cambiá la ficha del Filósofo por la del personaje en cuestión y marcalo con el recordatorio 'Es el Filósofo'. Si el personaje que eligió está en juego, además de esto, poné el recordatorio 'Borracho' junto al jugador de ese personaje.",
         "otherNight": 6,
         "otherNightReminder": "Si el Filósofo no usó su habilidad todavía, puede apuntar a un personaje bueno en la hoja de personaje. Si lo hace, cambiá la ficha del Filósofo por la del del personaje en cuestión y marcalo con el recordatorio 'Es el Filósofo'. Si el personaje que eligió está en juego, además de esto, poné el recordatorio 'Borracho' junto al jugador de ese personaje.",
-        "reminders": [],
+        "reminders": [
+            "Borracho"
+        ],
         "setup": false,
         "ability": "Una vez por partida, en la noche, elegí un personaje bueno: conseguís su habilidad. Si el personaje está en juego, se emborracha.",
         "special": [
@@ -1367,7 +1370,9 @@
         "otherNightReminder": "Elegí a cualquier jugador y ponele el recordatorio '1) Sobrio y saludable' o '2) Lo hace dos veces'. Despertalo y decile qué poder de la Barista lo está afectando mostrandole la tarjeta 'Este personaje te eligió', la ficha de la Barista y un 1 o un 2, según el recordatorio. Tratalo de forma acorde.",
         "reminders": [
             "1) Sobrio y saludable",
-            "2) Lo hace dos veces"
+            "2) Lo hace dos veces",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Cada noche, hasta el atardecer, un jugador 1) se vuelve sobrio, saludable y consigue información verdadera, o 2) su habilidad funciona dos veces. El jugador sabe cuál.",
@@ -1890,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Envenenado"
+            "Envenenado",
+            "Conoce"
         ],
         "setup": false,
         "ability": "En tu 1era noche, mirá el Grimorio y elegí un jugador: está envenenado. 1 jugador bueno sabe que la Viuda está en juego.",
@@ -2065,13 +2071,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Eligió morir",
-            "Eligió morir",
-            "Eligió morir",
-            "Eligió vivir",
-            "Eligió vivir",
-            "Eligió vivir"
+            "3"
         ],
         "setup": false,
         "ability": "Cada noche*, elegí tres jugadores (todos saben a quienes elegiste): cada uno decide silenciosamente si vive o muere, pero si todos viven, todos mueren.",
@@ -2348,7 +2348,6 @@
         "reminders": [
             "Muerto",
             "Muerto",
-            "Muerto",
             "Muerto"
         ],
         "setup": false,
@@ -2523,9 +2522,8 @@
         "otherNight": 15,
         "otherNightReminder": "Aplicá la habilidad del Mago si es relevante.",
         "reminders": [
-            "1?",
-            "2?",
-            "3?"
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Una vez por partida, podés pedir un deseo. Si se cumple, te puede costar algo y dejar una pista sobre su naturaleza.",
@@ -2612,7 +2610,10 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Este guión tiene reglas o personajes propios.",
         "special": null
@@ -2676,12 +2677,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2856,7 +2852,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Registra erroneamente?"
+            "Registra erroneamente?",
+            "Alineado",
+            "Alineado"
         ],
         "setup": false,
         "ability": "Se sabe que 2 jugadores vecinos son del mismo equipo. Una vez por partida, uno registra erroneamente.",

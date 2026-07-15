@@ -79,8 +79,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Incorrecto",
-            "esbirro"
+            "esbirro",
+            "Incorrecto"
         ],
         "setup": false,
         "ability": "Empiezas conociendo que 1 de 2 jugadores es un Esbirro particular.",
@@ -484,7 +484,8 @@
         "otherNight": 67,
         "otherNightReminder": "Si el Demonio mata al nieto de la Abuela: la Abuela muere.",
         "reminders": [
-            "Nieto"
+            "Nieto",
+            "Muerto"
         ],
         "setup": false,
         "ability": "Empiezas conociendo 1 jugador bueno y su personaje. Si el Demonio le mata, tú tambián mueres.",
@@ -596,9 +597,9 @@
         "otherNight": 13,
         "otherNightReminder": "Reduce el número de días restantes que el jugador estará borracho. Si la Cortesana no ha usado aún su habilidad: la Cortesana puede negar con la cabeza o señalar un personaje de la hoja. Si la Cortesana ha usado su habilidad: si ese personaje está presente en la partida, ese jugador estará borracho.",
         "reminders": [
-            "Borracho 1",
-            "Borracho 2",
             "Borracho 3",
+            "Borracho 2",
+            "Borracho 1",
             "Sin habilidad"
         ],
         "setup": false,
@@ -615,8 +616,8 @@
         "otherNight": 59,
         "otherNightReminder": "Si el Catedrático no ha usado su habilidad: el Catedrático puede negar con la cabeza o señalar a un jugador. Si ese jugador es un Aldeano, vuelve a estar vivo.",
         "reminders": [
-            "Sin habilidad",
-            "Vivo"
+            "Vivo",
+            "Sin habilidad"
         ],
         "setup": false,
         "ability": "Una vez por partida, por la noche*, elige 1 jugador muerto. Si es Aldeano, resucita.",
@@ -1115,7 +1116,9 @@
         "firstNightReminder": "El Filósofo puede negar con la cabeza o señalar a un personaje bueno en la hoja. Si elige a un personaje: sustituye la ficha de personaje del Filósofo por la del personaje no presente en la partida. O, si el personaje está presente en la partida, pon el recordatorio de \"Borracho\" junto a ese jugador y el de \"Es el Filósofo\" junto al del Filósofo.",
         "otherNight": 6,
         "otherNightReminder": "Si el Filósofo no ha usado su habilidad: el Filósofo puede negar con la cabeza o señalar a un personaje bueno en la hoja. Si elige a un personaje: sustituye la ficha de personaje del Filósofo por la del personaje no presente en la partida. O, si el personaje está presente en la partida, pon el recordatorio de \"Borracho\" junto a ese jugador y el de \"Es el Filósofo\" junto al del Filósofo.",
-        "reminders": [],
+        "reminders": [
+            "Borracho"
+        ],
         "setup": false,
         "ability": "Una vez por partida, por la noche, elige 1 personaje bueno: ganas su habilidad. Si el personaje está en juego, está borracho.",
         "special": [
@@ -1385,7 +1388,9 @@
         "otherNightReminder": "Elige a un jugador, despiértalo y dile qué poder del Barista le está afectando. Trátalo según el poder (sobrio/sano/información correcta o activa su habilidad dos veces).",
         "reminders": [
             "Habilidad doble",
-            "Sobrio y Sano"
+            "Sobrio y Sano",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Cada noche, hasta el crepúsculo, 1) un jugador está sobrio, sano y recibe información verdadera, o 2) su habilidad funciona 2 veces. El jugador sabe cuál de las dos.",
@@ -1590,8 +1595,8 @@
         "otherNight": 32,
         "otherNightReminder": "El Licántropo señala a un jugador vivo: si es bueno, muere y nadie más puede morir esta noche.",
         "reminders": [
-            "Muerto",
-            "Faux Paw"
+            "Faux Paw",
+            "Muerto"
         ],
         "setup": false,
         "ability": "Cada noche*, elige un jugador vivo. Si es bueno, muere y el Demonio no mata esta noche. Un jugador bueno se registra como maligno.",
@@ -1814,7 +1819,8 @@
         "otherNight": 17,
         "otherNightReminder": "El Acróbata elige un jugador. :recordatorio:",
         "reminders": [
-            "Muerto"
+            "Muerto",
+            "Elegido"
         ],
         "setup": false,
         "ability": "Cada noche*, elige un jugador: si se emborracha o es envenenado esta noche, mueres.",
@@ -1907,7 +1913,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Envenenado"
+            "Envenenado",
+            "Sabe"
         ],
         "setup": false,
         "ability": "En tu primera noche ves el Grimorio y eliges 1 jugador: está envenenado. 1 jugador bueno sabe que la viuda (Widow) está en juego.",
@@ -2056,8 +2063,8 @@
         "otherNight": 47,
         "otherNightReminder": "La Sanguijuela señala a un jugador. Ese jugador muere.",
         "reminders": [
-            "Envenenado",
-            "Muerto"
+            "Muerto",
+            "Envenenado"
         ],
         "setup": false,
         "ability": "Cada noche* elige 1 jugador: muere. Empiezas eligiendo un jugador vivo: está envenenado. Mueres solo si ese jugador muere.",
@@ -2075,9 +2082,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Elige muerte",
-            "Elige vida"
+            "3"
         ],
         "setup": false,
         "ability": "Cada noche* elige 3 jugadores (todos descubren quiénes son): cada uno elige en silencio si vive o muere, pero si todos viven, todos mueren.",
@@ -2093,8 +2098,8 @@
         "otherNight": 34,
         "otherNightReminder": "Elige a un jugador, ese jugador muere.",
         "reminders": [
-            "A punto de morir",
-            "Muerto"
+            "Muerto",
+            "A punto de morir"
         ],
         "setup": true,
         "ability": "Cada noche* 1 jugador puede morir. Las ejecuciones fallan si solo votan los malos. Apareces tambián como Esbirro. [La mayoría de jugadores son Legion]",
@@ -2130,7 +2135,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Día 1",
+            "Día 2",
+            "Día 3"
+        ],
         "setup": true,
         "ability": "En el día 3, los Esbirros se convierten en Alborotadores y los nominados mueren pero nominan inmediatamente a un jugador vivo. Esto debe suceder.",
         "special": null
@@ -2651,7 +2660,10 @@
         "firstNightReminder": "Anuncia que el contrabandista está en juego e informe al grupo sobre todos los personajes y/o reglas caseras que estas utilizando en esta partida.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Este guión tiene caracteres o reglas caseras.",
         "special": null
@@ -2716,12 +2728,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2907,7 +2914,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Register Falsely?"
+            "Register Falsely?",
+            "Alineado",
+            "Alineado"
         ],
         "setup": false,
         "ability": "2 jugadores vecinos son del mismo alineamiento. Una vez por partida, uno de ellos aparecerá del alineamiento opuesto.",

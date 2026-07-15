@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Jeśli Wnuczek Babci został dziś zabity przez Demona: Babcia umiera.",
         "reminders": [
-            "Wnuczek"
+            "Wnuczek",
+            "Martwy"
         ],
         "setup": false,
         "ability": "Na początku gry dowiadujesz się, jaką postacią jest jeden z dobrych graczy. Jeśli Demon go zabije, umrzesz wraz z nim.",
@@ -969,9 +970,7 @@
         "firstNightReminder": "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej",
         "otherNight": 72,
         "otherNightReminder": "jeden z nich jest prawidłowy.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Każdej nocy wybierz gracza (nie siebie, nie Podróżnego). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawdziwa.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "Filozof albo kręci głową na \"nie\" albo wskazuje dobrą postać na arkuszu. Jeśli wybrał postać: zamień token Filozofa z tokenem wybranej postaci i umieść przy nim token przypomnienia 'Jest Filozofem'. Jeśli wybrana postać jest w grze: umieść token 'Pijany' przy tym graczu.",
         "otherNight": 6,
         "otherNightReminder": "Jeśli Filozof nie użył jeszcze swojej umiejętności: Filozof albo kręci głową na \"nie\" albo wskazuje dobrą postać na arkuszu. Jeśli wybrał postać: zamień token Filozofa z tokenem wybranej postaci i umieść przy nim token przypomnienia 'Jest Filozofem'. Jeśli wybrana postać jest w grze: umieść token 'Pijany' przy tym graczu.",
-        "reminders": [],
+        "reminders": [
+            "Pijak"
+        ],
         "setup": false,
         "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać – uzyskujesz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
         "special": [
@@ -1298,7 +1299,8 @@
         "otherNight": 40,
         "otherNightReminder": "Fang Gu wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest Outsiderem i nie ma w grze innego Fang Gu - Demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Fang Gu. Obudź nowego Fang Gu. Pokaż mu kartę 'JESTEŚ' i token Fang Gu, potem pokaż kciukiem w dół, że jest zły.",
         "reminders": [
-            "Ginie"
+            "Ginie",
+            "Zmieniony"
         ],
         "setup": true,
         "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy Outsider, którego zabijesz w ten sposób, zostaje złym Fang Gu, a Ty giniesz zamiast niego. [+1 Outsider].",
@@ -1371,7 +1373,9 @@
         "otherNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
         "reminders": [
             "2x Zdolność",
-            "Trzeźwy i Zdrowy"
+            "Trzeźwy i Zdrowy",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Każdej nocy, aż do zmierzchu, 1) gracz trzeźwieje, zdrowieje i dostaje prawdziwe informacje, lub 2) ich zdolność działa dwa razy. Gracz dowiaduje się, która opcja na niego działa.",
@@ -1576,7 +1580,8 @@
         "otherNight": 32,
         "otherNightReminder": "Likantrop wskazuje na żywego gracza: jeśli ten gracz jest dobry, to umiera i nikt inny nie może umrzeć dzisiejszej nocy.",
         "reminders": [
-            "Ginie"
+            "Ginie",
+            "Martwy"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz żywego gracza. Jeśli jest dobry, umiera i Demon nie zabija tej nocy. Jeden dobry gracz jest rejestrowany jako zły.",
@@ -1799,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobata wybiera gracza. :przypomnienie:",
         "reminders": [
-            "Ginie"
+            "Ginie",
+            "Wybrany"
         ],
         "setup": false,
         "ability": "Każdej nocy*, wybierz gracza: jeśli tej nocy będzie pijany lub zatruty, umrzesz.",
@@ -1892,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zatruty"
+            "Zatruty",
+            "Znany"
         ],
         "setup": false,
         "ability": "Pierwszej nocy zajrzyj do Grymuaru i wybierz gracza: jest zatruty. 1 dobry gracz wie, że w grze jest Wdowa.",
@@ -2060,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Wybrał śmierć",
-            "Wybrał życie"
+            "3"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz 3 graczy (wszyscy gracze dowiadują się, kogo): każdy po cichu wybiera życie lub śmierć, ale jeśli wszyscy przeżyją, wszyscy umrą.",
@@ -2118,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dzień 1",
+            "Dzień 2",
+            "Dzień 3"
+        ],
         "setup": true,
         "ability": "Trzeciego dnia Sługusy stają się Awanturnikami, a nominowani umierają, ale natychmiast nominują żywego gracza. To musi się stać.",
         "special": null
@@ -2132,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Raz dziennie możesz zabić żywego sąsiada, jeśli twój drugi sąsiad się zgodzi.",
         "special": null
@@ -2149,7 +2156,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Zaraz zginie"
+            "Zaraz zginie",
+            "Pijak"
         ],
         "setup": false,
         "ability": "Wszyscy gracze zamykają oczy podczas głosowania, a wynik głosowania jest tajny. Głosy oddane na Ciebie liczą się tylko wtedy, gdy Ty zagłosujesz.",
@@ -2602,7 +2610,10 @@
         "firstNightReminder": "Ogłoś, że Bimbrownik jest w grze i poinformuj grupę o wszystkich własnych postaciach i / lub zasadach obowiązujących w tej grze.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Ten skrypt ma postacie lub zasady homebrew.",
         "special": null
@@ -2667,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2847,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Jest rejestrowany nieprawdziwie?"
+            "Jest rejestrowany nieprawdziwie?",
+            "Połączony",
+            "Połączony"
         ],
         "setup": false,
         "ability": "Wiadomo, że 2 sąsiadujących graczy jest w tej samej drużynie. Raz na grę, jeden z nich jest rejestrowany niezgodnie z prawdą",

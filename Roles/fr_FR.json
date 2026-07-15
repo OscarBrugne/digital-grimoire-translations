@@ -617,9 +617,9 @@
         "otherNight": 13,
         "otherNightReminder": "Le Courtisan peut choisir un rôle.",
         "reminders": [
-            "Ivre 1",
-            "Ivre 2",
             "Ivre 3",
+            "Ivre 2",
+            "Ivre 1",
             "Sans capacité"
         ],
         "setup": false,
@@ -827,8 +827,8 @@
         "otherNight": 51,
         "otherNightReminder": "L'Assassin peut choisir un joueur.",
         "reminders": [
-            "Sans capacité",
-            "Mort"
+            "Mort",
+            "Sans capacité"
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur : il meurt, même s'il ne peut normalement pas mourir.",
@@ -878,9 +878,9 @@
         "otherNight": 37,
         "otherNightReminder": "Le Pukka choisit un joueur. Le joueur précédemment empoisonné meurt, puis devient sain.",
         "reminders": [
-            "Mort",
             "Empoisonné",
-            "Empoisonné"
+            "Empoisonné",
+            "Mort"
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt, puis devient sain.",
@@ -985,8 +985,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nommer joueur maléfique",
-            "Nommer joueur bon"
+            "Nommer joueur bon",
+            "Nommer joueur maléfique"
         ],
         "setup": false,
         "ability": "Seul le Conteur peut nommer des joueurs. Au moins 1 joueur d'alignement opposé doit être nommé chaque jour.",
@@ -1065,6 +1065,7 @@
         "otherNight": 89,
         "otherNightReminder": "Faites signe avec vos doigts.",
         "reminders": [
+            "Anormal",
             "Anormal",
             "Anormal",
             "Anormal",
@@ -1167,7 +1168,9 @@
         "firstNightReminder": "Le Philosophe peut choisir un rôle. Si nécessaire, échangez son jeton de rôle.",
         "otherNight": 6,
         "otherNightReminder": "Le Philosophe peut choisir un rôle. Si nécessaire, échangez son jeton de rôle.",
-        "reminders": [],
+        "reminders": [
+            "Ivre"
+        ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un rôle bon : gagnez cette capacité. Si ce rôle est en jeu, il est ivre.",
         "flavor": null,
@@ -1394,12 +1397,12 @@
         "otherNightReminder": "Le Vigormortis choisit un joueur. Si ce joueur est un Sbire, empoisonnez un Villageois voisin du Sbire.",
         "reminders": [
             "Mort",
-            "Empoisonné",
-            "Empoisonné",
-            "Empoisonné",
             "A une capacité",
             "A une capacité",
-            "A une capacité"
+            "A une capacité",
+            "Empoisonné",
+            "Empoisonné",
+            "Empoisonné"
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les Sbires que vous tuez gardent leur capacité et empoisonnent 1 Villageois voisin. *[-1 Marginal]*",
@@ -1505,8 +1508,8 @@
         "otherNight": 5,
         "otherNightReminder": "",
         "reminders": [
-            "A une capacité",
-            "Sans capacité"
+            "Sans capacité",
+            "A une capacité"
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : il regagne sa capacité jusqu'au crépuscule.",
@@ -2277,8 +2280,8 @@
         "otherNight": 20,
         "otherNightReminder": "L'Organiste de rue hoche la tête pour dire oui et être ivre, ou la secoue pour dire non et être sobre.",
         "reminders": [
-            "Ivre",
-            "Sur le point de mourir"
+            "Sur le point de mourir",
+            "Ivre"
         ],
         "setup": false,
         "ability": "Les joueurs gardent les yeux fermés lors des votes et leur décompte est secret. Chaque nuit, choisissez si vous êtes ivre jusqu'au crépuscule.",
@@ -2759,7 +2762,10 @@
         "firstNightReminder": "Annoncez que le Bootlegger est en jeu et informez le groupe de tous les personnages et/ou règles personnalisées que vous utilisez pour cette partie.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Le script a des personnages ou règles personnalisés.",
         "flavor": null,
@@ -2825,12 +2831,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -3015,7 +3016,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Apparait faussement"
+            "Apparait faussement",
+            "Aligné",
+            "Aligné"
         ],
         "setup": false,
         "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
