@@ -508,6 +508,7 @@
     "no_script_loaded": "Geen script geladen",
     "download_only_database": "Download alleen beschikbaar voor databasescripts",
     "download_script_title": "{scriptName} downloaden",
+    "download_pdf_title": "PDF voor {scriptName} downloaden",
     "or_load_own_script": "of laad je eigen script",
     "botc_scripts_available": "Alle scripts van botcscripts.com beschikbaar",
     "from_url": "Vanaf URL",

@@ -507,6 +507,7 @@
     "no_script_loaded": "Сценарий не загружен",
     "download_only_database": "Скачивание доступно только для сценариев из базы",
     "download_script_title": "Скачать {scriptName}",
+    "download_pdf_title": "Скачать PDF для {scriptName}",
     "or_load_own_script": "или загрузить свой сценарий",
     "botc_scripts_available": "Все сценарии из botcscripts.com доступны",
     "from_url": "По URL",

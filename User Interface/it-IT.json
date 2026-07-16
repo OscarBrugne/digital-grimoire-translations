@@ -507,6 +507,7 @@
     "no_script_loaded": "Nessun copione caricato",
     "download_only_database": "Download disponibile solo per i copioni del database",
     "download_script_title": "Scarica {scriptName}",
+    "download_pdf_title": "Scarica il PDF di {scriptName}",
     "or_load_own_script": "oppure carica il tuo copione",
     "botc_scripts_available": "Tutti i copioni di botcscripts.com disponibili",
     "from_url": "Da URL",

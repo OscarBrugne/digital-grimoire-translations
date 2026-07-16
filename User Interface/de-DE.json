@@ -507,6 +507,7 @@
     "no_script_loaded": "Kein Skript geladen",
     "download_only_database": "Download nur für Datenbank-Skripte verfügbar",
     "download_script_title": "{scriptName} herunterladen",
+    "download_pdf_title": "PDF für {scriptName} herunterladen",
     "or_load_own_script": "oder laden Sie Ihr eigenes Skript",
     "botc_scripts_available": "Alle Skripte von botcscripts.com verfügbar",
     "from_url": "Von URL",

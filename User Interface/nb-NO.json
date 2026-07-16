@@ -507,6 +507,7 @@
     "no_script_loaded": "Ingen skript lastet inn",
     "download_only_database": "Nedlasting er bare tilgjengelig for databaseskript",
     "download_script_title": "Last ned {scriptName}",
+    "download_pdf_title": "Last ned PDF for {scriptName}",
     "or_load_own_script": "eller last inn ditt eget skript",
     "botc_scripts_available": "Alle skript fra botcscripts.com tilgjengelig",
     "from_url": "Fra URL",

@@ -510,6 +510,7 @@
     "no_script_loaded": "Nincs betöltött szkript",
     "download_only_database": "A letöltés csak adatbázisbeli szkriptekhez érhető el",
     "download_script_title": "{scriptName} letöltése",
+    "download_pdf_title": "{scriptName} PDF letöltése",
     "or_load_own_script": "vagy töltsd be egy saját szkripted",
     "botc_scripts_available": "A botcscripts.com összes szkriptje elérhető",
     "from_url": "URL-ről",

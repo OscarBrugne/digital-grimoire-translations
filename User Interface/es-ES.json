@@ -507,6 +507,7 @@
     "no_script_loaded": "Ningún guión cargado",
     "download_only_database": "Descarga solo disponible para guiones de base de datos",
     "download_script_title": "Descargar {scriptName}",
+    "download_pdf_title": "Descargar PDF de {scriptName}",
     "or_load_own_script": "o carga tu propio guión",
     "botc_scripts_available": "Todos los guiones de botcscripts.com disponibles",
     "from_url": "Desde URL",
