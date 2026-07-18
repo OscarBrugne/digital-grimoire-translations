@@ -63,7 +63,12 @@
     "enabled": "Enabled",
     "disabled": "Disabled",
     "end_game": "End Game",
-    "resize": "Resize"
+    "resize": "Resize",
+    "account": "Account",
+    "size": "Size",
+    "reminder": "Reminder",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Poisoned",
     "drunk": "Drunk",
-    "dead": "Dead",
-    "died_tonight": "Died Tonight"
+    "dead": "Dead"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -129,6 +133,9 @@
     },
     "about": {
       "title": "About Digital Grimoire",
+      "about_tab": "About",
+      "special_thanks": "Special Thanks",
+      "special_thanks_intro": "A heartfelt thank you to everyone who has helped test and shape the Digital Grimoire over the years:",
       "version": "Version",
       "disclaimer": "This project is not affiliated with The Pandemonium Institute. All roles & abilities etc. are the property of Steven Medway and The Pandemonium Institute.",
       "privacy_policy": "By using this website, you agree to our",
@@ -271,7 +278,6 @@
     },
     "nomination": {
       "select_target_title": "Select Nomination Target",
-      "history_title": "Nomination History",
       "nominating": "{player} is nominating:",
       "already_nominated_warning": "{player} has already nominated today.",
       "todays_nominations": "Today's Nominations:",
@@ -281,8 +287,24 @@
       "votes": "{count} votes",
       "already_nominated_today": "Already nominated today",
       "all_players_nominated": "All eligible players have already been nominated today.",
-      "no_nominations_today": "No nominations have been made today.",
       "clear_all_votes": "Clear All Votes"
+    },
+    "gameHistory": {
+      "history_title": "Game History",
+      "setup_title": "Setup",
+      "player_died": "{name} Died",
+      "player_revived": "{name} Revived",
+      "reminder_applied": "\"{reminder}\" reminder applied to {name}",
+      "reminder_removed": "\"{reminder}\" reminder removed from {name}",
+      "alignment_changed": "{name} is now {alignment}",
+      "roles_swapped": "{player1} and {player2} swapped roles ({role1} ↔ {role2})",
+      "role_changed": "{name} changed from {fromRole} to {toRole}",
+      "player_on_block": "{name} placed on the block",
+      "ghost_vote_spent": "{name} spent their ghost vote",
+      "game_result": "{team} wins",
+      "phase_started": "{phase} {number} Started",
+      "setup_started": "Setup started",
+      "game_started": "Game started"
     },
     "notes": {
       "title": "Notes",
@@ -347,6 +369,9 @@
       "name": "Name",
       "version": "Version",
       "remove_from_favourites": "Remove from favourites",
+      "tags": "Tags",
+      "add_tag": "Add tag",
+      "tag_placeholder": "New tag...",
       "no_favourite_scripts": "No favourite scripts.",
       "saved_games": "Saved Games",
       "created": "Created",
@@ -360,8 +385,15 @@
       "pronouns": "Pronouns",
       "save_friends": "Save Friends",
       "logout": "Logout",
+      "preferences": "Preferences",
+      "prefs_display": "Display",
+      "prefs_player_info": "Player Info",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Can't load while a game is in progress",
       "delete_game_confirmation_title": "Delete Saved Game",
-      "delete_game_confirmation_message": "Are you sure you want to delete <strong>{name}</strong>? This action cannot be undone."
+      "delete_game_confirmation_message": "Are you sure you want to delete <strong>{name}</strong>? This action cannot be undone.",
+      "login_sync_message": "Log in to sync your favourite scripts, friends list, and saved games across all your devices.",
+      "prefs_token_info": "Token Info"
     },
     "background": {
       "title": "Edit Background",
@@ -478,6 +510,7 @@
     "no_script_loaded": "No script loaded",
     "download_only_database": "Download only available for database scripts",
     "download_script_title": "Download {scriptName}",
+    "download_pdf_title": "Download PDF for {scriptName}",
     "or_load_own_script": "or load your own script",
     "botc_scripts_available": "All scripts from botcscripts.com available",
     "from_url": "From URL",
@@ -518,10 +551,7 @@
     "notes_placeholder": "Add any custom notes here...",
     "save_notes": "Save Notes",
     "game_notes": "Game Notes",
-    "viewing_history": "Viewing History",
     "history_tracking": "View History",
-    "enable_history_view": "Enable History View",
-    "disable_history_view": "Disable History View",
     "town_info_alive": "Alive",
     "town_info_travellers": "Travellers",
     "town_info_dead": "Dead",
@@ -593,7 +623,7 @@
     "assign_role_button": "Assign Role",
     "choose_role": "Choose a Role",
     "manual_assign": "Manual Assign",
-    "manual_assign_hint": "Give a seat a name and press Assign to seat that player (their role is still drawn). Add a role too to place it now and skip the draw.",
+    "manual_assign_hint": "Name a seat and optionally pre-assign its role, then press Assign. The player still draws their own token — pre-assigning only sets which role they'll get. Use Auto Assign All to fill every seat and skip the draw.",
     "status_to_draw": "To draw",
     "status_seated": "Seated",
     "pre_assign_role": "Pre-assign role"
@@ -605,6 +635,8 @@
     "day_night": "Day/Night",
     "character_sheet_qr": "Character Sheet QR",
     "night_order_sheet_qr": "Night-Order Sheet QR",
+    "mobile_session_qr": "Mobile Distribution QR",
+    "no_mobile_session": "No Mobile Distribution Session",
     "grim": "Grim",
     "town": "Town",
     "town_name_placeholder": "Town Name",
@@ -620,6 +652,8 @@
     "reveal_separately": "Reveal Separately",
     "tap_to_reveal": "Tap tokens to reveal roles",
     "reveal_all": "Reveal All",
+    "congratulations_prefix": "Congratulations to the",
+    "congratulations_suffix": "team",
     "widget_dark_background": "Dark Widget Backgrounds",
     "edit_night_icons": "Edit Night Order Icons...",
     "seat": "Seat"

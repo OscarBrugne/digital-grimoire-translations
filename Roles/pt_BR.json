@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Se o 'Neto' da Vovó foi morto pelo Demônio esta noite: A Vovó morre.",
         "reminders": [
-            "Neto"
+            "Neto",
+            "Morto"
         ],
         "setup": false,
         "ability": "Você começa sabendo o personagem de um jogador do bem específico. Se o Demônio matar esse jogador, você também morre.",
@@ -528,9 +529,9 @@
         "otherNight": 14,
         "otherNightReminder": "O Estalajadeiro escolhe 2 jogadores. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Bêbado",
-            "Bêbado",
-            "Protegido"
+            "Protegido",
+            "Protegido",
+            "Bêbado"
         ],
         "setup": false,
         "ability": "A cada noite*, escolha 2 jogadores: eles não podem morrer esta noite, mas um deles fica bêbado até o anoitecer.",
@@ -578,9 +579,9 @@
         "otherNight": 13,
         "otherNightReminder": "Se a Cortesã não estiver com o token *SEM HABILIDADE*, pode escolher um personagem. :reminder: :reminder:",
         "reminders": [
-            "Bêbado 1",
-            "Bêbado 2",
             "Bêbado 3",
+            "Bêbado 2",
+            "Bêbado 1",
             "Sem Habilidade"
         ],
         "setup": false,
@@ -597,8 +598,8 @@
         "otherNight": 59,
         "otherNightReminder": "Se o Cientista ainda não usou a habilidade: O Cientista pode fazer 'não' com a cabeça, ou apontar para um jogador morto. Se o alvo for um Cidadão, revive.",
         "reminders": [
-            "Sem habilidade",
-            "Vivo"
+            "Vivo",
+            "Sem habilidade"
         ],
         "setup": false,
         "ability": "Uma vez por jogo, à noite*, escolha um jogador morto: se ele for um Cidadão, é revivido.",
@@ -860,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "A Pô pode escolher um jogador OU 3 jogadores se escolheu 'ninguém' na última noite. :reminder: ou :reminder: :reminder: reminder:",
         "reminders": [
-            "3 Ataques",
-            "3 Ataques",
-            "3 Ataques",
-            "Morto"
+            "Morto",
+            "Morto",
+            "Morto",
+            "3 Ataques"
         ],
         "setup": false,
         "ability": "A cada noite*, você pode escolher um jogador: ele morre. Se a sua última escolha foi 'ninguém', escolha 3 jogadores esta noite.",
@@ -969,9 +970,7 @@
         "firstNightReminder": "O Sonhador escolhe um jogador. Mostre 1 personagem do bem e 1 do mal, sendo um deles o personagem do jogador escolhido.",
         "otherNight": 72,
         "otherNightReminder": "O Sonhador escolhe um jogador. Mostre 1 personagem do bem e 1 do mal, sendo um deles o personagem do jogador escolhido.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): aprenda 1 personagem do bem e 1 do mal, um deles corresponde ao jogador escolhido.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "O Filósofo pode escolher um personagem do bem, se necessário troque as fichas de personagens. :reminder:",
         "otherNight": 6,
         "otherNightReminder": "O Filósofo pode escolher um personagem do bem, se necessário troque as fichas de personagens. :reminder:",
-        "reminders": [],
+        "reminders": [
+            "Bêbado"
+        ],
         "setup": false,
         "ability": "Uma vez por jogo, à noite, escolha um personagem do bem: ganhe aquela habilidade. Se esse personagem estiver em jogo, ele fica bêbado.",
         "special": [
@@ -1298,7 +1299,8 @@
         "otherNight": 40,
         "otherNightReminder": "O Espectro escolhe um jogador. :reminder: Se este jogador for um Forasteiro (apenas uma vez): Substitua o token de Forasteiro com um token de Espectro sobrando. Coloque o Espectro para dormir. Acorde o alvo. Mostre os tokens *VOCÊ É* e do Espectro & mostre um joinha para baixo. :reminder:",
         "reminders": [
-            "Morto"
+            "Morto",
+            "Uma Vez"
         ],
         "setup": true,
         "ability": "A cada noite*, você escolhe um jogador: ele morre. O primeiro Forasteiro a ser morto assim, torna-se um Espectro do mal e você morre em vez dele. [+1 Forasteiro]",
@@ -1314,13 +1316,13 @@
         "otherNight": 44,
         "otherNightReminder": "O Vigormortis escolhe um jogador. :reminder: Se for um Lacaio envenene um vizinho Cidadão. :reminder: :reminder:",
         "reminders": [
+            "Morto",
+            "Tem Habilidade",
+            "Tem Habilidade",
+            "Tem Habilidade",
             "Envenenado",
-            "Morto",
-            "Morto",
-            "Morto",
-            "Tem Habilidade",
-            "Tem Habilidade",
-            "Tem Habilidade"
+            "Envenenado",
+            "Envenenado"
         ],
         "setup": true,
         "ability": "A cada noite*, você escolhe um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho Cidadão. [-1 Forasteiro].",
@@ -1336,9 +1338,9 @@
         "otherNight": 41,
         "otherNightReminder": "O No Dashii escolhe um jogador. O alvo morre.",
         "reminders": [
-            "Envenenado",
             "Morto",
-            "Morto"
+            "Envenenado",
+            "Envenenado"
         ],
         "setup": false,
         "ability": "A cada noite*, você escolhe um jogador: ele morre. Seus dois vizinhos Cidadãos estão envenenados.",
@@ -1371,7 +1373,9 @@
         "otherNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes)",
         "reminders": [
             "Habilidade 2x",
-            "Sóbrio e Desenvenenado"
+            "Sóbrio e Desenvenenado",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "A cada noite, até o anoitecer: 1) Um jogador fica são, sóbrio e saudável e obtém informações verdadeiras, ou; 2) Uma habilidade funciona duas vezes. O jogador afetado sabe qual é o efeito.",
@@ -1576,8 +1580,8 @@
         "otherNight": 32,
         "otherNightReminder": "O Licantropo escolhe um jogador vivo: se o alvo for bom, morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for bom, mas não morrer, ahabilidade do Licantropo não impede outras mortes esta noite.",
         "reminders": [
-            "Morto",
-            "Faux Paw"
+            "Faux Paw",
+            "Morto"
         ],
         "setup": false,
         "ability": "A cada noite*, escolha um jogador vivo. Se ele for do bem, ele morre e o Demônio não mata esta noite. Um jogador bom é registrado como maligno.",
@@ -1800,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "O Acrobata escolhe um jogador. :lembrete:",
         "reminders": [
-            "Morto"
+            "Morto",
+            "Escolhido"
         ],
         "setup": false,
         "ability": "A cada noite*, escolha um jogador: se ele estiver ou ficar bêbado ou envenenado esta noite, você morre.",
@@ -1893,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Envenenado"
+            "Envenenado",
+            "Sabe"
         ],
         "setup": false,
         "ability": "Na sua primeira noite, veja o Grimório e escolha um jogador: ele fica envenenado. 1 jogador do bem sabe que a Viúva está em jogo.",
@@ -2061,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Morte",
-            "Vida"
+            "3"
         ],
         "setup": false,
         "ability": "A cada noite*, escolha 3 jogadores (todos sabem quem são): em silêncio, cada alvo decide se vive ou morre, mas se todos viverem, todos morrem.",
@@ -2119,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dia 1",
+            "Dia 2",
+            "Dia 3"
+        ],
         "setup": true,
         "ability": "No 3º dia, os Lacaios se tornam Desordeiros e os indicados morrem, mas nomeiam um jogador vivo imediatamente. Isso deve acontecer.",
         "special": null
@@ -2133,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Uma vez por dia , você pode escolher matar um vizinho vivo, desde que o seu outro vizinho vivo concorde.",
         "special": null
@@ -2150,8 +2156,8 @@
         "otherNight": 20,
         "otherNightReminder": "O Organista indica com a cabeça se quer ou não ficar bêbado.",
         "reminders": [
-            "Bêbado",
-            "Prestes a morrer"
+            "Prestes a morrer",
+            "Bêbado"
         ],
         "setup": false,
         "ability": "Todos os jogadores mantêm os olhos fechados ao votar e a contagem dos votos é secreta. Cada noite, escolha se você está bêbado ou não.",
@@ -2604,7 +2610,10 @@
         "firstNightReminder": "Anuncie que o Pirata está em jogo e informe o grupo de todos os personagens e regras caseiras que estão sendo utilizadas no jogo.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Este roteiro possui regras ou personagens caseiros.",
         "special": null
@@ -2669,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2757,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Informação Falsa",
-            "Informação Falsa",
-            "Visitante"
+            "Visitante",
+            "Visitante",
+            "Informação Falsa"
         ],
         "setup": false,
         "ability": "A cada dia, 3 jogadores podem escolher visitar o Narrador. À noite*, cada visitante aprende quantos dos visitantes são do mal, mas um deles recebe informações falsas.",
@@ -2849,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Registrado Falsamente"
+            "Registrado Falsamente",
+            "Aliado",
+            "Aliado"
         ],
         "setup": false,
         "ability": "2 jogadores vizinhos têm o mesmo alinhamento e todos sabem quem são. Uma vez por jogo, um deles pode ser registrado falsamente.",

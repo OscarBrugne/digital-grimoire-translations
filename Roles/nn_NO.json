@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Om Demonen drap Farmora sitt barnebarn i natt: Farmora døyr.",
         "reminders": [
-            "Barnebarn"
+            "Barnebarn",
+            "Død"
         ],
         "setup": false,
         "ability": "Du lærer innleiingsvis ein god spelar & rolla deira. Om Demonen drep dei, døyr du også.",
@@ -1097,7 +1098,9 @@
         "firstNightReminder": "Filosofen anten rister på hovudet for \"nei\", eller peiker på ei god rolle på rollearket. Om dei vel rolle: Byt ut Filosof-brikka med den valde rolla, og marker rolla med \"Er Filosofen\". Om rolla allereie er i spel, marker spelaren som har rolla med \"Full\".",
         "otherNight": 6,
         "otherNightReminder": "Om Filosofen enno ikkje har nytta evna si: Filosofen anten rister på hovudet for \"nei\", eller peiker på ei god rolle på rollearket. Om dei vel rolle: Byt ut Filosof-brikka med den valde rolla, og marker rolla med \"Er Filosofen\". Om rolla allereie er i spel, marker spelaren som har rolla med \"Full\".",
-        "reminders": [],
+        "reminders": [
+            "Full"
+        ],
         "setup": false,
         "ability": "Éin gong i løpet av spelet, om natta, vel ei god rolle: tileign deg den evna. Om rolla allereie er i spel, er spelaran som har henne no full.",
         "special": [
@@ -1367,7 +1370,9 @@
         "otherNightReminder": "Vel ein spelar, vekk dei og fortel kva av Baristaen sine krefter som verkar på dei. Handsam dei såleis (frisk/edru/sann kunnskap eller la dei nytte evna si to gonger).",
         "reminders": [
             "Edru & Frisk",
-            "Evne 2 gonger"
+            "Evne 2 gonger",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Kvar natt, til skyming, 1) ein spelar vert frisk, edru & vert gjeve sann kunnskap, eller 2) evna deira verkar 2 gonger. Spelaren lærer kva.",
@@ -1796,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobaten vel ein spelar. :påminning:",
         "reminders": [
-            "Daud"
+            "Daud",
+            "Valgt"
         ],
         "setup": false,
         "ability": "Kvar natt*, vel ein spelar: om dei er eller vert fulle eller forgifta i kveld, døyr du.",
@@ -1889,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Forgifta"
+            "Forgifta",
+            "Vet"
         ],
         "setup": false,
         "ability": "Under den fyrste natta di, sjå inn i Boka & vel ein spelar: dei vert forgifta. 1 god spelar veit at ei Enke er i spel.",
@@ -2057,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Valde dauden",
-            "Valde livet"
+            "3"
         ],
         "setup": false,
         "ability": "Kvar natt*, vel 3 spelarar (alle spelarane lærer kven): kvar av dei vel i løyndom å leve eller å døy, men om alle lever, døyr alle.",
@@ -2112,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dag 1",
+            "Dag 2",
+            "Dag 3"
+        ],
         "setup": true,
         "ability": "På dag 3 vert Lakeiar til Opprør og nominerte døyr, men nominerer ein levande spelar med det same. Dette må hende.",
         "special": null
@@ -2126,9 +2135,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Éin gong kvar dag, om du vil, drep ein levande granne med samtykke frå din andre levande granne.",
         "special": null
@@ -2597,7 +2604,10 @@
         "firstNightReminder": "Kunngjer at Heimebrenneren er i spel og opplys gruppa om alle heimebrygde roller og reglar som gjeld for dette spelet.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Scenarioet har heimebrygde roller eller reglar.",
         "special": null
@@ -2662,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2842,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Tyd gale?"
+            "Tyd gale?",
+            "Samme lagtilhørighet",
+            "Samme lagtilhørighet"
         ],
         "setup": false,
         "ability": "Det er kjent at 2 grannespelarar har same lojalitet. Éin gong i løpet av spelet, 1 av dei vil verte tydd gale.",

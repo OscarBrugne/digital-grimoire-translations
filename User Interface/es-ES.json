@@ -63,7 +63,12 @@
     "enabled": "Habilitado",
     "disabled": "Deshabilitado",
     "end_game": "Finalizar partida",
-    "resize": "Redimensionar"
+    "resize": "Redimensionar",
+    "account": "Cuenta",
+    "size": "Tamaño",
+    "reminder": "Recordatorio",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Lo sentimos. Solo los guiones cargados desde la base de datos pueden traducirse en este momento."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Envenenado",
     "drunk": "Borracho",
-    "dead": "Muerto",
-    "died_tonight": "Murió esta noche"
+    "dead": "Muerto"
   },
   "nav": {
     "brand": "Grimorio Digital",
@@ -271,7 +275,6 @@
     },
     "nomination": {
       "select_target_title": "Seleccionar Objetivo de Nominación",
-      "history_title": "Historial de Nominaciones",
       "nominating": "{player} está nominando:",
       "already_nominated_warning": "{player} ya ha nominado hoy.",
       "todays_nominations": "Nominaciones de Hoy:",
@@ -281,8 +284,24 @@
       "votes": "{count} votos",
       "already_nominated_today": "Ya nominado hoy",
       "all_players_nominated": "Todos los jugadores elegibles ya han sido nominados hoy.",
-      "no_nominations_today": "No se han hecho nominaciones hoy.",
       "clear_all_votes": "Limpiar Todos los Votos"
+    },
+    "gameHistory": {
+      "history_title": "Historial de la Partida",
+      "setup_title": "Configuración",
+      "player_died": "{name} ha muerto",
+      "player_revived": "{name} ha revivido",
+      "reminder_applied": "Recordatorio \"{reminder}\" aplicado a {name}",
+      "reminder_removed": "Recordatorio \"{reminder}\" eliminado de {name}",
+      "alignment_changed": "{name} ahora es {alignment}",
+      "roles_swapped": "{player1} y {player2} intercambiaron roles ({role1} ↔ {role2})",
+      "role_changed": "{name} cambió de {fromRole} a {toRole}",
+      "player_on_block": "{name} ha sido puesto en el patíbulo",
+      "ghost_vote_spent": "{name} ha usado su voto fantasma",
+      "game_result": "{team} gana",
+      "phase_started": "{phase} {number} ha iniciado",
+      "setup_started": "La configuración ha iniciado",
+      "game_started": "La partida ha iniciado"
     },
     "notes": {
       "title": "Notas",
@@ -347,6 +366,9 @@
       "name": "Nombre",
       "version": "Versión",
       "remove_from_favourites": "Eliminar de favoritos",
+      "tags": "Etiquetas",
+      "add_tag": "Añadir etiqueta",
+      "tag_placeholder": "Nueva etiqueta...",
       "no_favourite_scripts": "Sin guiones favoritos.",
       "saved_games": "Juegos Guardados",
       "created": "Creado",
@@ -360,8 +382,15 @@
       "pronouns": "Pronombres",
       "save_friends": "Guardar Amigos",
       "logout": "Cerrar sesión",
+      "preferences": "Preferencias",
+      "prefs_display": "Pantalla",
+      "prefs_player_info": "Info del Jugador",
+      "prefs_grimoire": "Grimorio",
+      "load_disabled_in_game": "No se puede cargar durante una partida en curso",
       "delete_game_confirmation_title": "Eliminar Juego Guardado",
-      "delete_game_confirmation_message": "¿Estás seguro de que quieres eliminar <strong>{name}</strong>? Esta acción no se puede deshacer."
+      "delete_game_confirmation_message": "¿Estás seguro de que quieres eliminar <strong>{name}</strong>? Esta acción no se puede deshacer.",
+      "login_sync_message": "Inicia sesión para sincronizar tus guiones favoritos, lista de amigos y juegos guardados en todos tus dispositivos.",
+      "prefs_token_info": "Info de Tokens"
     },
     "background": {
       "title": "Editar Fondo",
@@ -478,6 +507,7 @@
     "no_script_loaded": "Ningún guión cargado",
     "download_only_database": "Descarga solo disponible para guiones de base de datos",
     "download_script_title": "Descargar {scriptName}",
+    "download_pdf_title": "Descargar PDF de {scriptName}",
     "or_load_own_script": "o carga tu propio guión",
     "botc_scripts_available": "Todos los guiones de botcscripts.com disponibles",
     "from_url": "Desde URL",
@@ -519,10 +549,7 @@
     "notes_placeholder": "Añade aquí cualquier nota personalizada...",
     "save_notes": "Guardar Notas",
     "game_notes": "Notas del Juego",
-    "viewing_history": "Viendo Historial",
     "history_tracking": "Historial",
-    "enable_history_view": "Activar vista de historial",
-    "disable_history_view": "Desactivar vista de historial",
     "town_info_alive": "Vivos",
     "town_info_travellers": "Viajeros",
     "town_info_dead": "Muertos",
@@ -594,7 +621,7 @@
     "assign_role_button": "Asignar Rol",
     "choose_role": "Elige un Rol",
     "manual_assign": "Asignar manualmente",
-    "manual_assign_hint": "Dale un nombre a un asiento y pulsa Asignar para sentar a ese jugador (su rol se sigue sorteando). Añade también un rol para colocarlo ahora y saltarse el sorteo.",
+    "manual_assign_hint": "Dale nombre a un asiento y, opcionalmente, preasigna su rol; luego pulsa Asignar. El jugador sigue sacando su propia ficha — la preasignación solo determina qué rol recibirá. Usa Auto Asignar Todos los Restantes para ocupar todos los asientos y saltarse el sorteo.",
     "status_to_draw": "Por sortear",
     "status_seated": "Asignado",
     "pre_assign_role": "Preasignar rol"
@@ -606,6 +633,8 @@
     "day_night": "Día/Noche",
     "character_sheet_qr": "QR Hoja de Personaje",
     "night_order_sheet_qr": "QR Hoja de Orden Nocturno",
+    "mobile_session_qr": "QR de Distribución Móvil",
+    "no_mobile_session": "No hay sesión de distribución móvil",
     "grim": "Grim",
     "town": "Pueblo",
     "town_name_placeholder": "Nombre del Pueblo",
@@ -621,6 +650,8 @@
     "reveal_separately": "Revelar por separado",
     "tap_to_reveal": "Toca las fichas para revelar roles",
     "reveal_all": "Revelar Todo",
+    "congratulations_prefix": "Enhorabuena al equipo",
+    "congratulations_suffix": "",
     "widget_dark_background": "Fondos oscuros de widgets",
     "edit_night_icons": "Editar Iconos del Orden Nocturno...",
     "seat": "Asiento"

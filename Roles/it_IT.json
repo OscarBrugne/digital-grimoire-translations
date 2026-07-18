@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Se il nipote della Nonna viene ucciso dal Demone stanotte: la Nonna muore.",
         "reminders": [
-            "Nipote"
+            "Nipote",
+            "Morto"
         ],
         "setup": false,
         "ability": "Inizi conoscendo un giocatore buono e il suo personaggio. Se il Demone lo uccide, muori anche tu.",
@@ -578,10 +579,10 @@
         "otherNight": 13,
         "otherNightReminder": "Riduci il numero rimanente di giorni di ebbrezza del giocatore scelto. Se il Cortigiano non ha ancora usato la sua abilità: Il Cortigiano può fare segno di \"No\" con la testa, oppure indicare un personaggio nella scheda personaggi. Se il Cortigiano ha usato la sua abilità: se quel personaggio è in gioco, quel giocatore è ubriaco.",
         "reminders": [
-            "Nessuna abilità",
-            "Ubriaco 1",
+            "Ubriaco 3",
             "Ubriaco 2",
-            "Ubriaco 3"
+            "Ubriaco 1",
+            "Nessuna abilità"
         ],
         "setup": false,
         "ability": "Una volta per partita, di notte, scegli un personaggio: è ubriaco per 3 notti e 3 giorni.",
@@ -597,8 +598,8 @@
         "otherNight": 59,
         "otherNightReminder": "Se il Professore non ha usato la sua abilità: il Professore fa segno di \"No\" con la testa o indica un giocatore morto. Se quel giocatore è un Cittadino, ora è vivo.",
         "reminders": [
-            "Nessuna abilità",
-            "Vivo"
+            "Vivo",
+            "Nessuna abilità"
         ],
         "setup": false,
         "ability": "Una volta per partita, di notte*, scegli un giocatore morto: se è un Cittadino, viene resuscitato.",
@@ -807,8 +808,8 @@
         "otherNight": 36,
         "otherNightReminder": "Se oggi non è morto nessuno: Zombuul indica un giocatore. Quel giocatore muore.",
         "reminders": [
-            "Morto",
-            "Morto oggi"
+            "Morto oggi",
+            "Morto"
         ],
         "setup": false,
         "ability": "Ogni notte*, se di giorno non è morto nessuno, scegli un giocatore: muore. La prima volta in cui dovresti morire, sopravvivi ma appari morto.",
@@ -860,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Se il Po non ha scelto nessuno l'occasione precedente: il Po indica 3 giocatori. Altrimenti, il Po può fare segno di \"No\" con la testa, o scegliere un giocatore. Quel giocatore muore.",
         "reminders": [
-            "3 attacchi",
-            "3 attacchi",
-            "3 attacchi",
-            "Morto"
+            "Morto",
+            "Morto",
+            "Morto",
+            "3 attacchi"
         ],
         "setup": false,
         "ability": "Ogni notte*, puoi scegliere un giocatore: muore. Se l'ultima volta non hai scelto nessuno, scegli 3 giocatori.",
@@ -1097,7 +1098,9 @@
         "firstNightReminder": "Il Filosofo fa segno di \"No\" con la testa, oppure indica un personaggio buono sulla lista. Se sceglie un personaggio: scambia il gettone del personaggio non in gioco con il gettone del Filosofo. Oppure, se il personaggio è in gioco, posiziona il promemoria \"Ubriaco\" accanto a quel giocatore e il promemoria \"È il filosofo\" accanto al filosofo.",
         "otherNight": 6,
         "otherNightReminder": "Se il filosofo non ha ancora usato la sua abilità: il Filosofo fa segno di \"No\" con la testa, oppure indica un personaggio buono sulla lista. Se sceglie un personaggio: scambia il gettone del personaggio non in gioco con il gettone del Filosofo. Oppure, se il personaggio è in gioco, posiziona il promemoria \"Ubriaco\" accanto a quel giocatore e il promemoria \"È il filosofo\" accanto al filosofo.",
-        "reminders": [],
+        "reminders": [
+            "Ubriaco"
+        ],
         "setup": false,
         "ability": "Una volta per partita, di notte, scegli un personaggio buono: ottieni quell'abilità. Se quel personaggio è in gioco, lui diventa ubriaco.",
         "special": [
@@ -1310,13 +1313,13 @@
         "otherNight": 44,
         "otherNightReminder": "Il Vigormortis indica un giocatore. Quel giocatore more. Se è un Seguace, mantiene la sua abilità e uno dei suoi vicini di posto Cittadini è avvelenato.",
         "reminders": [
+            "Morto",
+            "Ha abilità",
+            "Ha abilità",
+            "Ha abilità",
             "Avvelenato",
-            "Ha abilità",
-            "Ha abilità",
-            "Ha abilità",
-            "Morto",
-            "Morto",
-            "Morto"
+            "Avvelenato",
+            "Avvelenato"
         ],
         "setup": true,
         "ability": "Ogni notte*, scegli un giocatore: muore. I Seguaci che uccidi mantengono le loro abilità e avvelenano un Cittadino a loro vicino. [-1 Emarginato]",
@@ -1332,9 +1335,9 @@
         "otherNight": 41,
         "otherNightReminder": "Il No Dashii indica un giocatore. Quel giocatore muore.",
         "reminders": [
-            "Avvelenato",
             "Morto",
-            "Morto"
+            "Avvelenato",
+            "Avvelenato"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli un giocatore: muore. I tuoi 2 vicini Cittadini sono avvelenati.",
@@ -1367,7 +1370,9 @@
         "otherNightReminder": "Scegli un giocatore, sveglialo e digli quale potere del Barista lo colpisce. Trattalo di conseguenza (Sobrio/Salubre/Informazione veritiera OPPURE Abilità doppia).",
         "reminders": [
             "Abilità Doppia",
-            "Sobrio e Salubre"
+            "Sobrio e Salubre",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Grazie alla tua presenza, ogni notte, fino al tramonto, un giocatore: 1) Diventa sobrio, salubre e ottiene informazioni corrette, oppure 2) La sua abilità funziona due volte. Egli apprende quale delle due cose, ma tu no. Sta al Narratore decidere quale dei tuoi due vantaggi viene attivato ogni notte.",
@@ -1414,8 +1419,8 @@
         "otherNight": 5,
         "otherNightReminder": "L'Imbalsamatore fa segno di \"No\" con la testa oppure indica un giocatore morto: se ha indicato un giocatore, posiziona il gettone \"Ha abilità\" (potrebbe essere svegliato la stessa notte per usarla).",
         "reminders": [
-            "Ha Abilità",
-            "Nessuna Abilità"
+            "Nessuna Abilità",
+            "Ha Abilità"
         ],
         "setup": false,
         "ability": "Una volta durante la partita, di notte, scegli un giocatore morto: egli riacquisisce la sua abilità fino al tramonto.",
@@ -1572,8 +1577,8 @@
         "otherNight": 32,
         "otherNightReminder": "Il Licantropo indica un giocatore in vita: se il giocatore è buono, muore e nessun altro può morire questa notte.",
         "reminders": [
-            "Morto",
-            "Faux Paw"
+            "Faux Paw",
+            "Morto"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli un giocatore vivo. Se è buono, muore e il Demone non uccide questa notte. Un giocatore buono risulta malvagio.",
@@ -1796,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "L'Acrobata sceglie un giocatore. :promemoria:",
         "reminders": [
-            "Morto"
+            "Morto",
+            "Scelto"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli un giocatore: se stanotte è oppure diventa ubriaco o avvelenato, muori.",
@@ -1889,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Avvelenato"
+            "Avvelenato",
+            "Conosce"
         ],
         "setup": false,
         "ability": "Nella tua prima notte, guarda il Grimorio e scegli un giocatore: è avvelenato. 1 giocatore buono sa che la Vedova è in gioco.",
@@ -2038,8 +2045,8 @@
         "otherNight": 47,
         "otherNightReminder": "Il Lleech indica un giocatore. Quel giocatore muore.",
         "reminders": [
-            "Avvelenato",
-            "Morto"
+            "Morto",
+            "Avvelenato"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli un giocatore: muore. Inizi scegliendo un giocatore: è avvelenato - muori se e solo se quel giocatore muore.",
@@ -2057,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Chose death",
-            "Chose life"
+            "3"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli 3 giocatori (tutti scoprono chi): ognuno di loro sceglie silenziosamente se vivere o morire, ma se tutti vivono, tutti muoiono.",
@@ -2112,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Giorno 1",
+            "Giorno 2",
+            "Giorno 3"
+        ],
         "setup": true,
         "ability": "Al terzo giorno, i Seguaci diventano Rivolta e i nominati muoiono ma nominano immediatamente un giocatore vivo. Questo deve accadere.",
         "special": null
@@ -2126,9 +2135,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Una volta al giorno, puoi decidere di uccidere un tuo vicino vivo, se il tuo altro vicino vivo è d'accordo.",
         "special": null
@@ -2143,8 +2150,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Ubriaco",
-            "Sta per morire"
+            "Sta per morire",
+            "Ubriaco"
         ],
         "setup": false,
         "ability": "Tutti i giocatori tengono gli occhi chiusi quando votano e il conteggio dei voti è segreto. Ogni notte, scegli se sei ubriaco fino al tramonto oppure no.",
@@ -2597,7 +2604,10 @@
         "firstNightReminder": "Annuncia che il Contrabbandiere è in gioco ed informa il gruppo di tutti i personaggi e/o regole che verranno usati in questa partita.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Questo copione ha personaggi o regole stabilite dal Narratore.",
         "special": null
@@ -2662,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2750,9 +2755,9 @@
         "otherNight": 1,
         "otherNightReminder": "Sceglia i gicatori segnati con il promemoria Visitatore o \"informazioni sbagliate\" uno alla volta. Mostra loro il token della Duchesa, poi un numero con le dita (0, 1, 2, ecc.) uguale al numero di giocatori Malvagi segnati con il promemoria indicati  come \"Visitatore\" o se stai svegliando il giovatore, ",
         "reminders": [
-            "Informazioni sbagliate",
-            "Informazioni sbagliate",
-            "Visitatore"
+            "Visitatore",
+            "Visitatore",
+            "Informazioni sbagliate"
         ],
         "setup": false,
         "ability": "Ogni giorno, 3 giocatori possono decidere di visitarti. Di notte*, ognuno di loro apprende quanti di quelli che ti hanno visitato sono cattivi, ma uno apprende informazioni sbagliate.",
@@ -2842,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Appare opposto"
+            "Appare opposto",
+            "Allineato/a",
+            "Allineato/a"
         ],
         "setup": false,
         "ability": "2 giocatori vicini di posto sono dello stesso allineamento e tutti sanno chi sono. Una volta per partita, uno di questi appare dell'allineamento opposto.",

@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Če je Babičinega vnuka nocoj umoril Demon, Babica umre.",
         "reminders": [
-            "Vnuk"
+            "Vnuk",
+            "Mrtev"
         ],
         "setup": false,
         "ability": "Prvo noč spoznaš enega dobrega igralca in njegovo vlogo. Če ga Demon ponoči ubije, umreš tudi ti.",
@@ -969,9 +970,7 @@
         "firstNightReminder": "Sanjač pokaže na igralca. Pokaži mu eno dobro in eno slabo vlogo, ena izmed katerih pripada temu igralcu.",
         "otherNight": 72,
         "otherNightReminder": "Sanjač pokaže na igralca. Pokaži mu eno dobro in eno slabo vlogo, ena izmed katerih pripada temu igralcu.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca (ne sebe ali Popotnika). Izveš dve vlogi, eno dobro in eno zlobno, ena izmed katerih je prava.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "Filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\".",
         "otherNight": 6,
         "otherNightReminder": "Če še ni uporabil moči, filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\".",
-        "reminders": [],
+        "reminders": [
+            "Pijan"
+        ],
         "setup": false,
         "ability": "Enkrat na igro lahko ponoči izbereš eno dobro vlogo. Dobiš njeno moč. Če je ta vloga v igri, postane pijana.",
         "special": [
@@ -1372,7 +1373,9 @@
         "otherNightReminder": "Izberi igralca, ga prebudi in mu povej, katera moč Natakarica vpliva nanj. Ravnaj z njim temu primerno (dobi prave informacije/njegova moč se zgodi dvakrat).",
         "reminders": [
             "Zdrav in trezen",
-            "Dvojna moč"
+            "Dvojna moč",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Vsako noč, do naslednjega mraka en igralec 1) postane trezen, zdrav in dobiva resnične podatke ali 2) njegova moč deluje dvakrat. Izve, kaj se mu je zgodilo.",
@@ -1577,8 +1580,8 @@
         "otherNight": 32,
         "otherNightReminder": "Volkodlak pokaže na živega igralca, če je dober, umre, in nihče drug ne more umreti to noč.",
         "reminders": [
-            "Mrtev",
-            "Faux Paw"
+            "Faux Paw",
+            "Mrtev"
         ],
         "setup": false,
         "ability": "Vsako noč* izbereš enega živega igralca. Če je dober, umre in Demon ne ubije to noč. En dober igralec se registrira kot zloben.",
@@ -1801,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobat izbere igralca. :opomnik:",
         "reminders": [
-            "Mrtev"
+            "Mrtev",
+            "Izbran"
         ],
         "setup": false,
         "ability": "Vsako noč*, izberite igralca: če je nocoj pijan ali zastrupljen, umrete.",
@@ -1894,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zastrupljen"
+            "Zastrupljen",
+            "Ve"
         ],
         "setup": false,
         "ability": "Prvo noč lahko pogledaš v Pripovedovalčevo Buklo in zastrupiš enega igralca. En dober igralec ve, da je Vdova v igri.",
@@ -2062,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Izbral smrt",
-            "Izbral življenje"
+            "3"
         ],
         "setup": false,
         "ability": "Vsako noč* izbereš tri igralce. (Vsi igralci izvejo, koga) Vsak izmed njih na skrivaj izbere, ali bo živel ali umrl. Če se vsi odločijo, da bodo živeli, vsi umrejo. ",
@@ -2120,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dan 1",
+            "Dan 2",
+            "Dan 3"
+        ],
         "setup": true,
         "ability": "Na 3. dan Sledilci postanejo Izgredniki in nominiranci umrejo, vendar takoj nominirajo živega igralca. To se mora zgoditi.",
         "special": null
@@ -2134,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Enkrat na dan se lahko z enim od svojih živih sosedov odločiš, da ubiješ svojega drugega živega soseda.",
         "special": null
@@ -2605,7 +2610,10 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "This script has homebrew characters or rules.",
         "special": null
@@ -2670,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2850,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Izpade narobe?"
+            "Izpade narobe?",
+            "Poravnan",
+            "Poravnan"
         ],
         "setup": false,
         "ability": "Za dva igralca vsi vedo, da sta na isti ekipi. Enkrat na igro eden od njiju izpade narobe.",

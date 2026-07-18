@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Om Demonen drepte Farmoras barnebarn i natt: Farmora dør.",
         "reminders": [
-            "Barnebarn"
+            "Barnebarn",
+            "Død"
         ],
         "setup": false,
         "ability": "Du lærer innledningsvis en god spiller & rollen deres. Om Demonen dreper dem, dør du også.",
@@ -1097,7 +1098,9 @@
         "firstNightReminder": "Filosofen enten rister på hodet for \"nei\", eller peker på en god rolle på rollearket. Om de velger rolle: Bytt ut Filosof-brikken med den valgte rollen, og marker rollen med \"Er Filosofen\". Om rollen allerede er i spill, marker spilleren som har rollen med \"Full\".",
         "otherNight": 6,
         "otherNightReminder": "Om Filosofen ennå ikke har brukt evnen sin: Filosofen enten rister på hodet for \"nei\", eller peker på en god rolle på rollearket. Om de velger rolle: Bytt ut Filosof-brikken med den valgte rollen, og marker rollen med \"Er Filosofen\". Om rollen allerede er i spill, marker spilleren som har rollen med \"Full\".",
-        "reminders": [],
+        "reminders": [
+            "Full"
+        ],
         "setup": false,
         "ability": "Én gang i løpet av spillet, om natten, velg en god rolle: tilegn deg den evnen. Om rollen allerede er i spill, er spilleren som har den nå full.",
         "special": [
@@ -1367,7 +1370,9 @@
         "otherNightReminder": "Velg en spiller, vekk dem og fortell hvilken av Baristaens krefter som virker på dem. Behandle dem således (frisk/edru/sann kunnskap eller la dem bruke evnen sin to ganger).",
         "reminders": [
             "Edru & Frisk",
-            "Evne 2 ganger"
+            "Evne 2 ganger",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Hver natt, til skumring, 1) en spiller blir frisk, edru & gis sann kunnskap, eller 2) evnen deres virker 2 ganger. Spilleren lærer hvilken.",
@@ -1796,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobaten velger en spiller. Hvis de blir fulle eller forgiftet i kveld, dør Acrobat-spilleren.",
         "reminders": [
-            "Død"
+            "Død",
+            "Valgt"
         ],
         "setup": false,
         "ability": "Hver natt*, velg en spiller: hvis de er eller blir fulle eller forgiftet i kveld, dør du.",
@@ -1889,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Forgiftet"
+            "Forgiftet",
+            "Vet"
         ],
         "setup": false,
         "ability": "Under den første natten din, se inn i Boka & velg en spiller: de forgiftes. 1 god spiller vet at ei Enke er i spill.",
@@ -2057,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Valgte døden",
-            "Valgte livet"
+            "3"
         ],
         "setup": false,
         "ability": "Hver natt*, velg 3 spillere (alle spillere lærer hvem): hver av dem velger i hemmelighet å leve eller å dø, men om alle lever, dør alle.",
@@ -2112,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Dag 1",
+            "Dag 2",
+            "Dag 3"
+        ],
         "setup": true,
         "ability": "Nominerte spillere dør, men kan umiddelbart etter nominere en annen (den tredje dagen må de). Ondt vinner etter den tredje dagen er gått. [Alle Lakeier er Opprør]",
         "special": null
@@ -2126,9 +2135,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Én gang hver dag, om du vil, drep en levende nabo med samtykke fra din andre levende nabo.",
         "special": null
@@ -2597,7 +2604,10 @@
         "firstNightReminder": "Kunngjør at Heimebrenneren er i spill og opplys gruppen om alle heimebryggede roller og regler som gjelder for dette spillet.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Scenarioet har heimebryggede roller eller regler.",
         "special": null
@@ -2662,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2842,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Oppfatt galt?"
+            "Oppfatt galt?",
+            "Samme lagtilhørighet",
+            "Samme lagtilhørighet"
         ],
         "setup": false,
         "ability": "Det er kjent at 2 nabospillere har samme lojalitet. Én gang i løpet av spillet, 1 av dem vil oppfattes galt.",

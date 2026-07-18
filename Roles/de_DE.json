@@ -579,9 +579,9 @@
         "otherNight": 13,
         "otherNightReminder": "Reduziere die Anzahl der Tage, die die ausgewählte Rolle betrunken ist. Falls der Höfling seine Fähigkeit noch nicht benutzt hat: Der Höfling schüttelt entweder den Kopf (Nein) oder zeigt auf eine Rolle auf dem Rollenbogen. Tut er das: Die ausgewählte Rolle ist für drei Nächte und Tage betrunken, wenn er sich im Spiel befindet.",
         "reminders": [
-            "Betrunken 1",
-            "Betrunken 2",
             "Betrunken 3",
+            "Betrunken 2",
+            "Betrunken 1",
             "keine Fähigkeit"
         ],
         "setup": false,
@@ -777,8 +777,8 @@
         "otherNight": 51,
         "otherNightReminder": "Hat der Meuchelmörder seine Fähigkeit noch nicht verwendet: Der Meuchelmörder schüttelt mit dem Kopf oder zeigt auf einen Spieler. Dieser Spieler stirbt.",
         "reminders": [
-            "Keine Fähigkeit",
-            "Tot"
+            "Tot",
+            "Keine Fähigkeit"
         ],
         "setup": false,
         "ability": "Du darfst einmal im Spiel in der Nacht* 1 Spieler wählen: Er stirbt, auch wenn er es eigentlich nicht könnte.",
@@ -825,9 +825,9 @@
         "otherNight": 37,
         "otherNightReminder": "Die Pukka zeigt auf einen Spieler. Dieser Spieler ist vergiftet. Der Spieler der zuvor vergiftet wurde, stirbt.",
         "reminders": [
-            "Tot",
             "Vergiftet",
-            "Vergiftet"
+            "Vergiftet",
+            "Tot"
         ],
         "setup": false,
         "ability": "Wähle jede Nacht 1 Spieler: Er ist vergiftet. Der zuvor vergiftete Spieler stirbt und wird gesund.",
@@ -843,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Einer der Spieler, die der Shabaloth in der vorherigen Nacht gewählt, hat kann wiederauferstehen. Der Shabaloth zeigt auf zwei Spieler. Diese Spieler sterben.",
         "reminders": [
-            "Keine Fähigkeit",
             "Tot",
-            "Tot"
+            "Tot",
+            "Lebendig"
         ],
         "setup": false,
         "ability": "Wähle jede Nacht* 2 Spieler: Sie sterben. 1 toter Spieler, den du in der vergangenen Nacht ausgewählt hast, könnte hochgewürgt werden.",
@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Wenn der Poe niemanden in der letzten Nacht gewählt hat: Der Poe zeigt auf drei Spieler. Andernfalls: Der Poe zeigt entweder Nein durch Kopfschütteln oder zeigt auf einen Spieler. Ausgewählte Spieler sterben.",
         "reminders": [
-            "3 Angriffe",
             "Tot",
             "Tot",
-            "Tot"
+            "Tot",
+            "3 Angriffe"
         ],
         "setup": false,
         "ability": "Du darfst jede Nacht* 1 Spieler wählen: Er stirbt. Wenn deine letzte Wahl niemand war, wähle in dieser Nacht 3 Spieler.",
@@ -926,8 +926,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nominiere Böse",
-            "Nominiere Gut"
+            "Nominiere Gut",
+            "Nominiere Böse"
         ],
         "setup": false,
         "ability": "Nur der Spielleiter kann nominieren. Mindestens 1 Spieler des anderen Teams muss nominiert werden.",
@@ -1098,7 +1098,9 @@
         "firstNightReminder": "Der Philosoph schüttelt den Kopf (Nein) oder zeigt auf einen guten CHarakter am Charakterbogen. Wenn er einen Charakter gewählt hat: Tausche den Charaktertoken des Philosophs mit dem neuen Charaktertoken aus. Sollte sich der Charakter bereits im Spiel befunden wird der originale Spieler betrunken.",
         "otherNight": 6,
         "otherNightReminder": "Wenn der Philosoph seine Fähigkeit noch nicht eingesetzt hat: Der Philosoph schüttelt den Kopf (Nein) oder zeigt auf einen guten CHarakter am Charakterbogen. Wenn er einen Charakter gewählt hat: Tausche den Charaktertoken des Philosophs mit dem neuen Charaktertoken aus. Sollte sich der Charakter bereits im Spiel befunden wird der originale Spieler betrunken.",
-        "reminders": [],
+        "reminders": [
+            "Betrunken"
+        ],
         "setup": false,
         "ability": "Du kannst einmal im Spiel in der Nacht 1 gute Rolle wählen: Du erhältst ihre Fähigkeit. Ist die Rolle bereits im Spiel, wird sie betrunken.",
         "special": [
@@ -1417,8 +1419,8 @@
         "otherNight": 5,
         "otherNightReminder": "Der Knochensammler schüttelt den Kopf (nein) oder zeigt auf einen toten Spieler. Zeigt er auf einen toten Spieler, legen den 'Hat Fähigkeit' reminder zur Spielkarte des ausgewählten Spielers.",
         "reminders": [
-            "Hat Fähigkeit",
-            "Keine Fähigkeit"
+            "Keine Fähigkeit",
+            "Hat Fähigkeit"
         ],
         "setup": false,
         "ability": "Du darfst einmal im Spiel in der Nacht einen toten Spieler wählen: Er erhält bis zum Ende des nächsten Tages seine Fähigkeit zurück.",
@@ -1482,8 +1484,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Hat Fähigkeit",
-            "Besessen"
+            "Besessen",
+            "Hat Fähigkeit"
         ],
         "setup": false,
         "ability": "Du erfährst zu Beginn 1 Bürgerrolle, die im Spiel ist. Wenn du besessen davon warst, dass du diese Rolle hast, erhältst du ihre Fähigkeit, wenn er stirbt.",
@@ -1575,8 +1577,8 @@
         "otherNight": 32,
         "otherNightReminder": "Der Werwolf zeigt auf einen lebenden Spieler. Ist er gut, stirbt er und niemand sonst stirbt in der Nacht",
         "reminders": [
-            "Tot",
-            "Faux Paw"
+            "Faux Paw",
+            "Tot"
         ],
         "setup": false,
         "ability": "Wähle jede Nacht* 1 lebenden Spieler: Ist er gut, stirbt er & der Dämon tötet in dieser Nacht nicht. Ein guter Spieler erscheint als Böse.",
@@ -1799,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "Der Akrobat wählt einen Spieler. :reminder:",
         "reminders": [
-            "Tot"
+            "Tot",
+            "Gewählt"
         ],
         "setup": false,
         "ability": "Jede Nacht*, wähle einen Spieler: Wenn er heute Nacht betrunken oder vergiftet wird, stirbst du.",
@@ -1892,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vergiftet"
+            "Vergiftet",
+            "Bekannt"
         ],
         "setup": false,
         "ability": "Schaue in deiner ersten Nacht in das Grimoire & wähle 1 Spieler: Er ist vergiftet. 1 guter Spieler weiß, dass die Witwe im Spiel ist.",
@@ -1957,8 +1961,8 @@
         "otherNight": 27,
         "otherNightReminder": "Wecke den ersten guten Spieler, der das geheime Wort des Mezepheles ausgesprochen hat und zeige ihm die 'Du bist' Karte und danach das Daumen runter Signal, um zu zeigen, dass er ab jetzt böse ist",
         "reminders": [
-            "Keine Fähigkeit",
-            "Wird böse"
+            "Wird böse",
+            "Keine Fähigkeit"
         ],
         "setup": false,
         "ability": "Du erfährst zu Beginn ein geheimes Wort. Der erste gute Spieler, der es ausspricht, wird in der Nacht böse.",
@@ -2060,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Wähle Leben",
-            "Wähle Tod"
+            "3"
         ],
         "setup": false,
         "ability": "Du darfst jede Nacht* 3 Spieler wählen (alle Spieler erfahren, welche): Jeder entscheidet für sich, ob er leben oder sterben möchte, aber wenn alle leben, sterben alle.",
@@ -2115,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Tag 1",
+            "Tag 2",
+            "Tag 3"
+        ],
         "setup": true,
         "ability": "Am 3. Tag werden Schergen zu Riot & Nominierte sterben, aber nominieren sofort einen lebenden Spieler. Das muss passieren.",
         "special": null
@@ -2144,8 +2150,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Betrunken",
-            "About to die"
+            "About to die",
+            "Betrunken"
         ],
         "setup": false,
         "ability": "Alle Spieler halten beim Abstimmen die Augen geschlossen und das Ergebnis der Abstimmung ist geheim. Wählen Sie jede Nacht, ob Sie betrunken sind oder nicht.",
@@ -2598,7 +2604,10 @@
         "firstNightReminder": "Kündigen Sie an, dass der Bootlegger im Spiel ist, und informieren Sie die Gruppe über alle Homebrew-Charaktere und/oder Regeln, die Sie in diesem Spiel verwenden.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Dieses Skript enthält Homebrew-Zeichen oder -Regeln.",
         "special": null
@@ -2663,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2843,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Register Falsely?"
+            "Register Falsely?",
+            "Verbündet",
+            "Verbündet"
         ],
         "setup": false,
         "ability": "Es wird bekannt, welche zwei benachbarten Spieler die gleiche Gesinnung haben. Einmal im Spiel wird einer der beiden falsch erkannt.",

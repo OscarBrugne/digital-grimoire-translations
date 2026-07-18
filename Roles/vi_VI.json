@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Nếu cháu của Bà ngoại bị giết bởi Quỷ tối nay: Bà ngoại chết.",
         "reminders": [
-            "Cháu ngoại"
+            "Cháu ngoại",
+            "Chết"
         ],
         "setup": false,
         "ability": "Bạn bắt đầu biết 1 người tốt & nhân vật của họ. Nếu Quỷ giết họ, bạn chết theo.",
@@ -969,9 +970,7 @@
         "firstNightReminder": "Mơ mộng chỉ 1 người. Cho xem 1 thẻ nhân vật tốt và 1 thẻ nhân vật xấu; 1 trong số đó là đúng.",
         "otherNight": 72,
         "otherNightReminder": "Mơ mộng chỉ 1 người. Cho xem 1 thẻ nhân vật tốt và 1 thẻ nhân vật xấu; 1 trong số đó là đúng.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Mỗi đêm, chọn 1 người (không phải mình hay Lữ Khách): được biết 1 chức năng tốt và 1 chức năng xấu, 1 trong số đó là đúng.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "Nếu Triết gia không dùng chức năng, họ có thể lắc đầu. Nếu Triết gia muốn chọn nhân vật, họ chỉ vào tờ của họ. Tráo thẻ nhân vật của Triết gia với nhân vật ngoài cuộc. Hoặc, nếu nhân vật này trong cuộc, đánh dấu \"Say\" cạnh nhân vật đó và thẻ \"là Triết gia\" cạnh Triết gia.",
         "otherNight": 6,
         "otherNightReminder": "Nếu Triết gia không dùng chức năng, họ có thể lắc đầu. Nếu Triết gia muốn chọn nhân vật, họ chỉ vào tờ của họ. Tráo thẻ nhân vật của Triết gia với nhân vật ngoài cuộc. Hoặc, nếu nhân vật này trong cuộc, đánh dấu \"Say\" cạnh nhân vật đó và thẻ \"là Triết gia\" cạnh Triết gia.",
-        "reminders": [],
+        "reminders": [
+            "Say Rượu"
+        ],
         "setup": false,
         "ability": "Chỉ 1 lần duy nhất, trong đêm, chọn 1 nhân vật Phe Tốt: nhận chức năng đó. Nếu nhân vật này đã có trong làng, họ sẽ bị say.",
         "special": [
@@ -1372,7 +1373,9 @@
         "otherNightReminder": "Chọn 1 người, gọi họ dậy và thông báo cho họ chức năng tác động lên họ. Sử dụng phù hợp chức năng (thông tin tỉnh/khỏe/đúng hoặc sử dụng chức năng 2 lần).",
         "reminders": [
             "Tỉnh & Khỏe",
-            "Nhân đôi chức năng"
+            "Nhân đôi chức năng",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Mỗi đêm, đến hoàng hôn, 1) 1 người sẽ tỉnh, khỏe mạnh và nhận thông tin đúng, hoặc 2) chức năng của họ được sử dụng 2 lần. Họ biết nó là gì.",
@@ -1801,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "Nghệ sĩ xiếc chọn một người chơi. :lời nhắc:",
         "reminders": [
-            "Chết"
+            "Chết",
+            "Chọn"
         ],
         "setup": false,
         "ability": "Mỗi đêm*, chọn một người chơi: nếu họ say hoặc bị đầu độc tối nay, bạn sẽ chết và khả năng của họ có thể hoạt động hai lần.",
@@ -1894,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Trúng độc"
+            "Trúng độc",
+            "Biết"
         ],
         "setup": false,
         "ability": "Trong đêm đầu của bạn, nhìn Grimore & chọn 1 người: họ bị trúng độc. 1 người tốt biết có Góa phụ trong cuộc.",
@@ -2062,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Chọn chết",
-            "Chọn sống"
+            "3"
         ],
         "setup": false,
         "ability": "Mỗi đêm*, chọn 3 người (mọi người biết là ai): mỗi người bí mật chọn được sống hoặc chết, nếu tất cả chọn sống, họ cùng chết",
@@ -2120,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Ngày 1",
+            "Ngày 2",
+            "Ngày 3"
+        ],
         "setup": true,
         "ability": "Vào ngày thứ 3, Tay sai trở thành Bạo loạn & những người được đề cử sẽ chết nhưng ngay lập tức đề cử một người chơi còn sống. Điều này phải xảy ra.",
         "special": null
@@ -2134,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Một lần trong ngày, bạn có thể chọn giết 1 hàng xóm sống, nếu hàng xóm sống còn lại đồng ý.",
         "special": null
@@ -2605,7 +2610,10 @@
         "firstNightReminder": "Thông báo có Kẻ buôn lậu trong game và thông báo các nhân vật hoặc/và các luật tự chế.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Kịch bản này có nhân vật hoặc luật tự chế.",
         "special": null
@@ -2670,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2850,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Thấy sai?"
+            "Thấy sai?",
+            "Cùng Phe",
+            "Cùng Phe"
         ],
         "setup": false,
         "ability": "2 người ngồi cạnh nhau được biết là cùng phe. Một lần trong game, một trong số họ thấy sai.",

@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "如果祖母的孫子被惡魔殺死，祖母死亡。",
         "reminders": [
-            "孫子"
+            "孫子",
+            "死亡"
         ],
         "setup": false,
         "ability": "你遊戲開始時得知一位好人玩家以及他的角色，如果該玩家被惡魔殺死，則你也會死。",
@@ -842,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "沙巴洛斯前一晚選擇的其中一位玩家可能會復活，沙巴洛斯選擇兩位玩家，這些玩家死亡。",
         "reminders": [
-            "復活",
-            "復活",
-            "死亡"
+            "死亡",
+            "死亡",
+            "復活"
         ],
         "setup": false,
         "ability": "每天晚上*，選擇兩位玩家，這些玩家死亡。昨晚你選擇的其中一位玩家可能會復活。",
@@ -860,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "阿寶可以選擇一位玩家，或是如果阿寶在上一次沒有選擇玩家，則選擇三位玩家。被選擇的玩家死亡。",
         "reminders": [
-            "攻擊x3",
-            "攻擊x3",
-            "攻擊x3",
-            "死亡"
+            "死亡",
+            "死亡",
+            "死亡",
+            "攻擊x3"
         ],
         "setup": false,
         "ability": "每天晚上*，你可以選擇一位玩家，該玩家死亡。如果你上次選擇不行動，則你今晚選擇三位玩家。",
@@ -969,9 +970,7 @@
         "firstNightReminder": "夢想家指向一位玩家，將一個好人的角色代幣和一個邪惡的角色代幣展示給他，其中一個是正確的。",
         "otherNight": 72,
         "otherNightReminder": "夢想家指向一位玩家，將一個好人的角色代幣和一個邪惡的角色代幣展示給他，其中一個是正確的。",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "每天晚上，選擇其他一位玩家(非旅行者)，你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇且該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「是哲學家」標記哲學家。",
         "otherNight": 6,
         "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇且該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「是哲學家」標記哲學家。",
-        "reminders": [],
+        "reminders": [
+            "醉酒"
+        ],
         "setup": false,
         "ability": "每場遊戲一次，晚上時，選擇一個好人角色，你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
         "special": [
@@ -1315,13 +1316,13 @@
         "otherNight": 44,
         "otherNightReminder": "亡靈之主指向一位玩家，該玩家死亡。如果該玩家是僕從，以「具有能力」標記該玩家並讓他的一位鎮民鄰居中毒。",
         "reminders": [
+            "死亡",
+            "具有能力",
+            "具有能力",
+            "具有能力",
             "中毒",
-            "具有能力",
-            "具有能力",
-            "具有能力",
-            "死亡",
-            "死亡",
-            "死亡"
+            "中毒",
+            "中毒"
         ],
         "setup": true,
         "ability": "每天晚上*，選擇一位玩家，該玩家死亡。你殺死的僕從們會保留他們的能力，並且使其兩側最近的其中一位鎮民中毒。[−1 城外人]",
@@ -1337,9 +1338,9 @@
         "otherNight": 41,
         "otherNightReminder": "諾達西指向一位玩家，該玩家死亡。",
         "reminders": [
-            "中毒",
             "死亡",
-            "死亡"
+            "中毒",
+            "中毒"
         ],
         "setup": false,
         "ability": "每天晚上*，選擇一位玩家，該玩家死亡。在你兩側離你最近且活著的鎮民中毒。",
@@ -1372,7 +1373,9 @@
         "otherNightReminder": "選擇一位玩家，喚醒該玩家並告知他們哪一種咖啡師的效果作用於他們身上(清醒&健康/能力x2)。以對應的標記標記該玩家。",
         "reminders": [
             "清醒&健康",
-            "能力x2"
+            "能力x2",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "每天晚上，直到隔天黃昏，隨機發生 1) 一位玩家變得清醒及健康，得到正確的資訊，或者 2) 該玩家的能力觸發兩次。受到影響的玩家得知是哪種效果。",
@@ -1801,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "雜技演員選擇一名玩家。 :提醒:",
         "reminders": [
-            "死亡"
+            "死亡",
+            "被选择"
         ],
         "setup": false,
         "ability": "每個夜晚*，選擇一名玩家：如果他們今晚喝醉或中毒，你就會死。",
@@ -1894,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "中毒"
+            "中毒",
+            "得知"
         ],
         "setup": false,
         "ability": "在你的第一晚，查看魔典並且選擇一位玩家，該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
@@ -2062,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "選擇「死亡」",
-            "選擇「活著」"
+            "3"
         ],
         "setup": false,
         "ability": "每天晚上*，選擇三位玩家(所有玩家都知道是誰)，他們各自私下選擇「活著」或 「死亡」，但是如果他們最後都活著，則他們都死亡。",
@@ -2120,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "第一天",
+            "第二天",
+            "第三天"
+        ],
         "setup": true,
         "ability": "第3天，爪牙變成暴徒，被提名者死亡，但立即提名一名活著的玩家。這必須發生。",
         "special": null
@@ -2134,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "每天白天一次，如果你活著的鄰居同意，你可以殺死另一位活著的鄰居。",
         "special": null
@@ -2605,7 +2610,10 @@
         "firstNightReminder": "宣布走私販在遊戲中以及這場遊戲中使用的所有自定義角色和/或自定義規則。",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "這個劇本中有自定義角色或使用自定義規則。",
         "special": null
@@ -2670,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2758,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "不正確",
-            "不正確",
-            "訪客"
+            "訪客",
+            "訪客",
+            "不正確"
         ],
         "setup": false,
         "ability": "每天白天，至多三位玩家可以拜訪說書人。當晚*，他們得知有多少拜訪者是邪惡的，但其中一位得到不正確的訊息。",
@@ -2850,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "不正確"
+            "不正確",
+            "同阵营",
+            "同阵营"
         ],
         "setup": false,
         "ability": "兩位相鄰的玩家會被設定為相同隊伍。每場遊戲一次，其中一位玩家的身分會被視為不正確的隊伍或角色。",

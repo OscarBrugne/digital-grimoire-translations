@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Jika Cucu Grandmother dibunuh oleh Demon malam ini: Grandmother mati.",
         "reminders": [
-            "Grandchild"
+            "Grandchild",
+            "Mati"
         ],
         "setup": false,
         "ability": "Kamu mulai dengan mengetahui pemain yang baik beserta karakternya. Jika Demon membunuh mereka, kamu juga akan mati.",
@@ -1097,7 +1098,9 @@
         "firstNightReminder": "Philosopher antara menunjukkan sinyal kepala 'tidak', atau menunjuk ke karakter baik di lembar list karakter mereka. Jika mereka memilih karakter: Tukar token karakter yang tidak dimainkan dengan token Philosopher dan tambahkan pengingat 'Is The Philosopher'. Jika karakter tersebut sedang dimainkan, letakkan penanda mabuk di samping token pemain yang memiliki karakter tersebut.",
         "otherNight": 6,
         "otherNightReminder": "Jika Philosopher belum menggunakan kemampuannya : Philosopher antara menunjukkan sinyal kepala 'tidak', atau menunjuk ke karakter baik di lembar list karakter mereka. Jika mereka memilih karakter: Tukar token karakter yang tidak dimainkan dengan token Philosopher dan tambahkan pengingat 'Is The Philosopher'. Jika karakter tersebut sedang dimainkan, letakkan penanda mabuk di samping token pemain yang memiliki karakter tersebut.",
-        "reminders": [],
+        "reminders": [
+            "Mabuk"
+        ],
         "setup": false,
         "ability": "Sekali per permainan, di malam hari, pilih karakter baik: dapatkan kemampuan itu. Jika karakter ini sedang dimainkan, mereka sedang mabuk.",
         "special": [
@@ -1367,7 +1370,9 @@
         "otherNightReminder": "Pilih seorang pemain, bangunkan mereka dan beri tahu kekuatan Barista yang mana yang mempengaruhi mereka. Perlakukan mereka sesuai (sadar/sehat/informasi yang benar atau aktifkan kemampuan mereka dua kali).",
         "reminders": [
             "Sober & Healthy",
-            "Ability twice"
+            "Ability twice",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Setiap malam, hingga senja, 1) seorang pemain menjadi sadar, sehat, dan mendapatkan informasi yang benar, atau 2) kemampuan mereka bekerja dua kali lipat. Mereka mengetahui mana yang terjadi.",
@@ -1572,8 +1577,8 @@
         "otherNight": 32,
         "otherNightReminder": "The Lycanthrope menunjuk seorang pemain yang masih hidup: jika pemain itu baik, mereka akan mati, dan Demon tidak akan membunuh malam ini.",
         "reminders": [
-            "Dead",
-            "Faux Paw"
+            "Faux Paw",
+            "Dead"
         ],
         "setup": false,
         "ability": "Setiap malam*, pilih satu pemain yang masih hidup. Jika baik, mereka mati & Demon tidak membunuh malam ini. Satu pemain baik akan terdaftar sebagai tim jahat.",
@@ -1796,7 +1801,8 @@
         "otherNight": 17,
         "otherNightReminder": "Acrobat memilih seorang pemain. :pengingat:",
         "reminders": [
-            "Dead"
+            "Dead",
+            "Terpilih"
         ],
         "setup": false,
         "ability": "Setiap malam*, pilih seorang pemain: jika mereka mabuk atau diracuni malam ini, kamu mati.",
@@ -1889,7 +1895,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Poisoned"
+            "Poisoned",
+            "Tahu"
         ],
         "setup": false,
         "ability": "Pada malam pertama, lihat Grimoire dan pilih seorang pemain: mereka diracuni. 1 pemain baik tahu bahwa seorang Widow ada dalam permainan.",
@@ -2057,9 +2064,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Chose death",
-            "Chose life"
+            "3"
         ],
         "setup": false,
         "ability": "Setiap malam*, Kamu dapat memilih 3 pemain (semua pemain mengetahui siapa): masing-masing dari mereka memilih secara diam-diam untuk hidup atau mati, tetapi jika semua memilih hidup, semua dari mereka mati.",
@@ -2112,7 +2117,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Hari 1",
+            "Hari 2",
+            "Hari 3"
+        ],
         "setup": true,
         "ability": "Pada hari ke-3, Minions menjadi Riot & nominator mati tetapi segera menominasikan pemain yang masih hidup. Ini harus terjadi.",
         "special": null
@@ -2126,9 +2135,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Satu kali per hari pada siang hari, Kamu dapat memilih untuk membunuh tetangga yang masih hidup, jika tetangga lain-mu yang masih hidup setuju.",
         "special": null
@@ -2143,8 +2150,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Drunk",
-            "About to die"
+            "About to die",
+            "Drunk"
         ],
         "setup": false,
         "ability": "Semua pemain menutup mata saat memberikan suara dan hasil pemungutan suara dirahasiakan. Setiap malam, pilih apakah kamu mabuk atau tidak.",
@@ -2597,7 +2604,10 @@
         "firstNightReminder": "Umumkan bahwa Bootlegger sedang dimainkan dan beri tahu grup tentang semua karakter dan/atau aturan homebrew yang Anda gunakan dalam permainan ini.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Skrip ini memiliki karakter atau aturan buatan sendiri.(Homebrew)",
         "special": null
@@ -2662,12 +2672,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2842,7 +2847,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Register Falsely?"
+            "Register Falsely?",
+            "Pihak sama",
+            "Pihak sama"
         ],
         "setup": false,
         "ability": "2 pemain tetangga diketahui memiliki pihak yang sama. Sekali per permainan, salah satu dari mereka mendaftar secara palsu.",

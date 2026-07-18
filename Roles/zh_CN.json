@@ -970,9 +970,7 @@
         "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
         "otherNight": 72,
         "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
         "special": null,
@@ -1103,7 +1101,9 @@
         "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
         "otherNight": 6,
         "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
-        "reminders": [],
+        "reminders": [
+            "醉酒"
+        ],
         "setup": false,
         "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
         "special": [
@@ -1373,7 +1373,9 @@
         "otherNightReminder": "说书人选择一名玩家唤醒，并告诉他触发了咖啡师的什么效果。",
         "reminders": [
             "清醒且健康",
-            "行动两次"
+            "行动两次",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "每个夜晚，直至下个黄昏，由说书⼈二选一：1）一名玩家解除并免受醉酒和中毒影响，且会得知正确信息；2）一名玩家的能力可以生效两次。该玩家会得知是哪个效果。",
@@ -1802,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "杂技演员选择一名玩家。 :提醒:",
         "reminders": [
-            "死亡"
+            "死亡",
+            "被选择"
         ],
         "setup": false,
         "ability": "每个夜晚*，选择一名玩家：如果他们今晚喝醉或中毒，你就会死，他们的能力可能会发动两次。",
@@ -1895,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "中毒"
+            "中毒",
+            "得知"
         ],
         "setup": false,
         "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -2063,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "选择死",
-            "选择生"
+            "3"
         ],
         "setup": false,
         "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
@@ -2121,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "第一天",
+            "第二天",
+            "第三天"
+        ],
         "setup": true,
         "ability": "第3天，爪牙变成暴徒，被提名者死亡，但立即提名一名活着的玩家。这必须发生。",
         "special": null
@@ -2135,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "每个白天限一次，你可以杀死与你邻近的两名存活的玩家中的一名，但需要另一边那个存活的玩家同意。",
         "special": null
@@ -2606,7 +2610,10 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "This script has homebrew characters or rules.",
         "special": null
@@ -2671,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2851,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "被当作其他"
+            "被当作其他",
+            "同阵营",
+            "同阵营"
         ],
         "setup": false,
         "ability": "公开声明一对邻座玩家本局游戏一直保持同一阵营。每局游戏限一次，他们中的一人可能被当作其他的角色/阵营。 ",

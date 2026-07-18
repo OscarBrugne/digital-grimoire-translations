@@ -466,7 +466,8 @@
         "otherNight": 67,
         "otherNightReminder": "Eğer Büyükanne'nin torunu bu gece İblis tarafından öldürüldüyse: Büyükanne ölür.",
         "reminders": [
-            "Torun"
+            "Torun",
+            "Ölü"
         ],
         "setup": false,
         "ability": "İyi bir oyuncuyu ve onun karakterini bilerek başlarsınız. Eğer İblis onları öldürürse, siz de ölürsünüz.",
@@ -528,9 +529,9 @@
         "otherNight": 14,
         "otherNightReminder": "Önceki korunan ve sarhoş oyuncular bu işaretleri kaybeder. Hancı iki oyuncuyu işaret eder. Bu oyuncular korunur. Biri sarhoştur.",
         "reminders": [
-            "Sarhoş",
-            "Sarhoş",
-            "Korumalı"
+            "Korumalı",
+            "Korumalı",
+            "Sarhoş"
         ],
         "setup": false,
         "ability": "Her gece*, 2 oyuncu seçin: bu gece ölemezler, ancak biri gün batımına kadar sarhoş olur.",
@@ -743,8 +744,8 @@
         "otherNight": 52,
         "otherNightReminder": "Eğer bir Yabancı bugün öldüyse: Mafya Babası bir oyuncuyu işaret eder. O oyuncu ölür.",
         "reminders": [
-            "Ölü",
-            "Bugün Öldü"
+            "Bugün Öldü",
+            "Ölü"
         ],
         "setup": true,
         "ability": "Oyunda hangi Yabancıların olduğunu bilerek başlarsınız. Eğer bugün biri öldüyse, bu gece bir oyuncu seçin: o ölür. [-1 veya +1 Yabancı]",
@@ -807,8 +808,8 @@
         "otherNight": 36,
         "otherNightReminder": "Eğer gün içinde kimse ölmediyse: Zombuul bir oyuncuyu işaret eder. O oyuncu ölür.",
         "reminders": [
-            "Ölü",
-            "Bugün Öldü"
+            "Bugün Öldü",
+            "Ölü"
         ],
         "setup": false,
         "ability": "Her gece*, eğer bugün kimse ölmediyse, bir oyuncu seçin: o ölür. İlk öldüğünüzde, yaşarsınız ancak ölü olarak görünürsünüz.",
@@ -824,9 +825,9 @@
         "otherNight": 37,
         "otherNightReminder": "Pukka bir oyuncuyu işaret eder. O oyuncu zehirlenir. Önceki zehirlenen oyuncu ölür.",
         "reminders": [
-            "Ölü",
-            "Ölü",
-            "Zehirlendi"
+            "Zehirlendi",
+            "Zehirlendi",
+            "Ölü"
         ],
         "setup": false,
         "ability": "Her gece bir oyuncu seçin: o zehirlenir. Önceki zehirlenen oyuncu ölür ve sonra iyileşir.",
@@ -842,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Shabaloth'un önceki gece seçtiği bir oyuncu dirilebilir. Shabaloth iki oyuncuyu işaret eder. Bu oyuncular ölür.",
         "reminders": [
-            "Hayatta",
-            "Hayatta",
-            "Ölü"
+            "Ölü",
+            "Ölü",
+            "Hayatta"
         ],
         "setup": false,
         "ability": "Her gece*, 2 oyuncu seçin: onlar ölür. Dün gece seçtiğiniz ölü bir oyuncu dirilebilir.",
@@ -860,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Eğer Po önceki gece kimseyi seçmediyse: Po üç oyuncuyu işaret eder. Aksi takdirde: Po ya 'hayır' işareti gösterir ya da bir oyuncuyu işaret eder. Seçilen oyuncular ölür.",
         "reminders": [
-            "3 Saldırı",
-            "3 Saldırı",
-            "3 Saldırı",
-            "Ölü"
+            "Ölü",
+            "Ölü",
+            "Ölü",
+            "3 Saldırı"
         ],
         "setup": false,
         "ability": "Hikaye Anlatıcısı Yeteneği",
@@ -969,9 +970,7 @@
         "firstNightReminder": "Hayalperest bir oyuncuyu işaret eder. 1 iyi ve 1 kötü karakter simgesi gösterin; bunlardan biri doğrudur.",
         "otherNight": 72,
         "otherNightReminder": "Hayalperest bir oyuncuyu işaret eder. 1 iyi ve 1 kötü karakter simgesi gösterin; bunlardan biri doğrudur.",
-        "reminders": [
-            "jeden z nich jest prawidłowy."
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Her gece, bir oyuncu seçin (kendiniz veya Gezginler hariç): 1 iyi ve 1 kötü karakter öğrenirsiniz, bunlardan biri doğrudur.",
         "special": null,
@@ -1102,7 +1101,9 @@
         "firstNightReminder": "Filozof ya 'hayır' işareti yapar ya da karakter sayfasındaki iyi bir karakteri işaret eder. Eğer bir karakter seçtiyse: Oyunda olmayan karakter simgesini Filozof simgesiyle değiştirin. Veya, eğer karakter oyundaysa, sarhoş işaretleyicisini o oyuncunun yanına ve Filozof Olmayan simgesini Filozof'un yanına yerleştirin.",
         "otherNight": 6,
         "otherNightReminder": "Eğer Filozof yeteneğini kullanmadıysa: Filozof ya 'hayır' işareti yapar ya da karakter sayfasındaki iyi bir karakteri işaret eder. Eğer bir karakter seçtiyse: Oyunda olmayan karakter simgesini Filozof simgesiyle değiştirin. Veya, eğer karakter oyundaysa, sarhoş işaretleyicisini o oyuncunun yanına ve Filozof Olmayan simgesini Filozof'un yanına yerleştirin.",
-        "reminders": [],
+        "reminders": [
+            "Sarhoş"
+        ],
         "setup": false,
         "ability": "Oyunda bir kez, geceleyin, iyi bir karakter seçin: o yeteneği kazanın. Eğer bu karakter oyundaysa, sarhoş olur.",
         "special": [
@@ -1372,7 +1373,9 @@
         "otherNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin).",
         "reminders": [
             "İki Defa Yetenek",
-            "Ayık & Sağlıklı"
+            "Ayık & Sağlıklı",
+            "?",
+            "?"
         ],
         "setup": false,
         "ability": "Her gece, gün batımına kadar, 1) bir oyuncu ayık, sağlıklı olur ve gerçek bilgi alır veya 2) yetenekleri iki kez çalışır. Hangisi olduğunu öğrenirler.",
@@ -1801,7 +1804,8 @@
         "otherNight": 17,
         "otherNightReminder": "Akrobat bir oyuncu seçer. :hatırlatma:",
         "reminders": [
-            "Ölü"
+            "Ölü",
+            "Seçilen"
         ],
         "setup": false,
         "ability": "Her gece*, bir oyuncu seçin: bu gece sarhoş olurlarsa veya zehirlenirlerse, siz ölürsünüz.",
@@ -1894,7 +1898,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zehirlendi"
+            "Zehirlendi",
+            "Biliyor"
         ],
         "setup": false,
         "ability": "İlk gecenizde, Grimoire'a bakın ve bir oyuncu seçin: o zehirlenir. 1 iyi oyuncu bir Dul'un oyunda olduğunu bilir.",
@@ -2062,9 +2067,7 @@
         "reminders": [
             "1",
             "2",
-            "3",
-            "Ölümü seçti",
-            "Yaşamı seçti"
+            "3"
         ],
         "setup": false,
         "ability": "Her gece*, 3 oyuncu seçin (tüm oyuncular kimin seçildiğini öğrenir): her biri sessizce yaşamayı ya da ölmeyi seçer, ancak hepsi yaşarsa, hepsi ölür.",
@@ -2120,7 +2123,11 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "Gün 1",
+            "Gün 2",
+            "Gün 3"
+        ],
         "setup": true,
         "ability": "3. günde, Minyonlar İsyan'a dönüşür ve adaylar ölür ancak hemen hayatta olan bir oyuncuyu aday gösterirler. Bu gerçekleşmelidir.",
         "special": null
@@ -2134,9 +2141,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [
-            "Dead"
-        ],
+        "reminders": [],
         "setup": false,
         "ability": "Günde bir kez, diğer hayatta olan komşunuz kabul ederse, hayatta olan bir komşunuzu öldürmeyi seçebilirsiniz.",
         "special": null
@@ -2605,7 +2610,10 @@
         "firstNightReminder": "İçki kaçakçısının oyunda olduğunu duyurun ve grubu bu oyunda kullandığınız tüm homebrew karakterler ve/veya kurallar hakkında bilgilendirin.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "?",
+            "?"
+        ],
         "setup": false,
         "ability": "Bu senaryoda homebrew (ev yapımı) karakterler veya kurallar vardır.",
         "special": null
@@ -2670,12 +2678,7 @@
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
-        "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
-        ],
+        "reminders": [],
         "flavor": ""
     },
     {
@@ -2758,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Yanlış Bilgi",
-            "Yanlış Bilgi",
-            "Ziyaretçi"
+            "Ziyaretçi",
+            "Ziyaretçi",
+            "Yanlış Bilgi"
         ],
         "setup": false,
         "ability": "Her gün, 3 oyuncu sizi ziyaret etmeyi seçebilir. Gece*, her ziyaretçi kaç ziyaretçinin kötü olduğunu öğrenir, ancak biri yanlış bilgi alır.",
@@ -2850,7 +2853,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yanlış Görünür mü?"
+            "Yanlış Görünür mü?",
+            "Tarafında",
+            "Tarafında"
         ],
         "setup": false,
         "ability": "Komşu 2 oyuncunun aynı bağlılıkta olduğu bilinir. Oyunda bir kez, bunlardan biri yanlış görünür.",
